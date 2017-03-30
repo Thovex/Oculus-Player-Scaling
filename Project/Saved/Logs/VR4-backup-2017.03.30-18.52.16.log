@@ -1,0 +1,1301 @@
+﻿Log file open, 03/30/17 12:29:42
+LogInit:Display: Running engine for game: VR4
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1325637734) SRandInit(-1325637734).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.071899
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.13.0(build = 361842) feature version = 0. Client runs version (prod = 1).1.13.0(build = 361842) feature version = 0
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Game Development/Unreal Engine/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.30-10.29.43:909][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'. Value remains '1'
+[2017.03.30-10.29.43:911][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.30-10.29.43:911][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.30-10.29.43:942][  0]LogInit: Computer: JESSE-MSI
+[2017.03.30-10.29.43:942][  0]LogInit: User: Thovex
+[2017.03.30-10.29.43:942][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.30-10.29.43:942][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2017.03.30-10.29.43:942][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.03.30-10.29.43:942][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.30-10.29.43:942][  0]LogMemory: Process Physical Memory: 268.71 MB used, 268.71 MB peak
+[2017.03.30-10.29.43:942][  0]LogMemory: Process Virtual Memory: 266.13 MB used, 266.13 MB peak
+[2017.03.30-10.29.43:942][  0]LogMemory: Physical Memory: 5007.70 MB used,  11333.71 MB free, 16341.41 MB total
+[2017.03.30-10.29.43:942][  0]LogMemory: Virtual Memory: 681.75 MB used,  11333.71 MB free, 134217728.00 MB total
+[2017.03.30-10.29.44:123][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.30-10.29.44:768][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(13064all)
+[2017.03.30-10.29.44:768][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.30-10.29.45:282][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.03.30-10.29.45:282][  0]LogD3D11RHI:       8113/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.30-10.29.45:283][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.30-10.29.45:283][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.30-10.29.45:283][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.30-10.29.45:287][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.30-10.29.45:288][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.30-10.29.45:288][  0]LogWindows: EnumDisplayDevices:
+[2017.03.30-10.29.45:288][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.03.30-10.29.45:288][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.30-10.29.45:288][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.30-10.29.45:288][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.30-10.29.45:288][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.30-10.29.45:288][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.03.30-10.29.45:288][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.03.30-10.29.45:288][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.03.30-10.29.45:288][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.30-10.29.45:802][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.30-10.29.45:838][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.30-10.29.45:880][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Downloads/VR4NewScene/VR4NewScene/VR4/Intermediate/Shaders/WorkingDirectory/12380/).
+[2017.03.30-10.29.45:880][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thovex/AppData/Local/Temp/UnrealShaderWorkingDir/0BE508B54264DA89F3FB4E9426BD43CA/'.
+[2017.03.30-10.29.45:880][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.30-10.29.46:766][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.30-10.29.46:807][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.30-10.29.46:850][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.30-10.29.46:893][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.30-10.29.46:935][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.30-10.29.46:978][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.30-10.29.47:020][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.30-10.29.47:062][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.30-10.29.47:096][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.30-10.29.47:137][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.30-10.29.47:179][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.30-10.29.47:220][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.30-10.29.47:260][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.30-10.29.47:302][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.30-10.29.47:343][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.30-10.29.47:426][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.30-10.29.47:426][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.30-10.29.47:453][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.30-10.29.47:529][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.30-10.29.47:555][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.30-10.29.47:595][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.30-10.29.47:637][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.30-10.29.47:678][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.30-10.29.47:720][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.30-10.29.47:720][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.30-10.29.48:016][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.30-10.29.48:062][  0]LogDerivedDataCache: Loaded boot cache 0.05s 61MB C:/Users/Thovex/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.30-10.29.48:062][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Thovex/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.30-10.29.48:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Downloads/VR4NewScene/VR4NewScene/VR4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.30-10.29.48:062][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.30-10.29.48:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Downloads/VR4NewScene/VR4NewScene/VR4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.30-10.29.48:062][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.30-10.29.48:078][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.30-10.29.48:090][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thovex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.30-10.29.48:126][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.30-10.29.48:127][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.30-10.29.48:127][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.30-10.29.48:357][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.30-10.29.48:359][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.30-10.29.48:569][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.30-10.29.48:599][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.30-10.29.48:635][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.30-10.29.48:635][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.30-10.29.48:635][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.30-10.29.49:190][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: vr4, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 772521802
+[2017.03.30-10.29.49:229][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2017.03.30-10.29.49:320][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.077211 seconds
+[2017.03.30-10.29.49:325][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.30-10.29.49:325][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.03.30-10.29.49:325][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.30-10.29.49:364][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.30-10.29.50:721][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.30-10.29.50:754][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.30-10.29.51:144][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.30-10.29.51:521][  0]SourceControl: Info Source control is disabled
+[2017.03.30-10.29.51:522][  0]SourceControl: Info Source control is disabled
+[2017.03.30-10.29.51:558][  0]SourceControl: Info Source control is disabled
+[2017.03.30-10.29.51:594][  0]SourceControl: Info Source control is disabled
+[2017.03.30-10.29.52:534][  0]LogEngine: Initializing Engine...
+[2017.03.30-10.29.52:534][  0]LogHMD: Oculus plugin initialized. Version: 4.15.0-3299760+++UE4+Release-4.15, LibOVR: 1.13.0, SDK: 1.10.0, built Feb 14 2017, 02:10:09
+[2017.03.30-10.29.52:848][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.30-10.29.52:873][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.30-10.29.53:003][  0]LogInit: FAudioDevice initialized.
+[2017.03.30-10.29.53:030][  0]LogDerivedDataCache: Saved boot cache 0.03s 61MB C:/Users/Thovex/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.30-10.29.53:037][  0]LogInit: Texture streaming: Enabled
+[2017.03.30-10.29.53:096][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.30-10.29.53:176][  0]LogInit: Transaction tracking system initialized
+[2017.03.30-10.29.53:418][  0]BlueprintLog: New page: Editor Load
+[2017.03.30-10.29.54:046][  0]LocalizationService: Info Localization service is disabled
+[2017.03.30-10.29.54:533][  0]LogConsoleResponse:Display: 
+[2017.03.30-10.29.54:780][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.30-10.29.54:780][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.30-10.29.54:881][  0]LogFileCache: Scanning file cache for directory 'D:/Downloads/VR4NewScene/VR4NewScene/VR4/Content/' took 0.02s
+[2017.03.30-10.29.55:552][  0]SourceControl: Info Source control is disabled
+[2017.03.30-10.29.55:552][  0]Cmd: MAP LOAD FILE="../../../../../../Downloads/VR4NewScene/VR4NewScene/VR4/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.30-10.29.55:584][  0]LightingResults: New page: Lighting Build
+[2017.03.30-10.29.55:614][  0]MapCheck: New page: Map Check
+[2017.03.30-10.29.55:614][  0]LightingResults: New page: Lighting Build
+[2017.03.30-10.29.56:149][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.03.30-10.29.56:232][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.30-10.29.56:237][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.30-10.29.56:277][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.32ms to complete.
+[2017.03.30-10.29.56:277][  0]LogFileHelpers: Loading map 'StartupMap' took 0.725
+[2017.03.30-10.29.56:342][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.30-10.29.56:723][  0]LogCollectionManager: Loaded 0 collections in 0.000966 seconds
+[2017.03.30-10.29.56:854][  0]LogFileCache: Scanning file cache for directory 'D:/Downloads/VR4NewScene/VR4NewScene/VR4/Saved/Collections/' took 0.01s
+[2017.03.30-10.29.56:854][  0]LogFileCache: Scanning file cache for directory 'D:/Downloads/VR4NewScene/VR4NewScene/VR4/Content/Developers/Thovex/Collections/' took 0.01s
+[2017.03.30-10.29.56:854][  0]LogFileCache: Scanning file cache for directory 'D:/Downloads/VR4NewScene/VR4NewScene/VR4/Content/Collections/' took 0.01s
+[2017.03.30-10.29.56:854][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.03.30-10.29.56:863][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2244 classes and 450 folders.
+[2017.03.30-10.29.56:879][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.30-10.29.56:884][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.30-10.29.56:941][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.30-10.29.57:667][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.30-10.29.57:748][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.30-10.29.58:379][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.30-10.29.58:424][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.30-10.29.58:491][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.30-10.29.58:492][  0]LogLoad: (Engine Initialization) Total time: 17.59 seconds
+[2017.03.30-10.29.58:492][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.03.30-10.29.58:492][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.30-10.29.58:492][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.30-10.29.58:501][  0]LogOcInput: OculusInput pre-init called
+[2017.03.30-10.29.58:513][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.13.0
+[2017.03.30-10.29.58:590][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.30-10.29.58:591][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.30-10.29.58:595][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.30-10.29.58:615][  0]LogSlate: Took 0.015556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.30-10.29.58:985][  0]LogRenderer: Reallocating scene render targets to support 712x528 NumSamples 1 (Frame:2).
+[2017.03.30-10.29.58:985][  0]LogSlate: Took 0.027088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.30-10.29.59:160][  2]LogAssetRegistry: Asset discovery search completed in 9.9533 seconds
+[2017.03.30-10.29.59:160][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.03.30-10.29.59:160][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2017.03.30-10.30.08:291][ 44]LogRenderer: Reallocating scene render targets to support 952x648 NumSamples 1 (Frame:1038).
+[2017.03.30-10.30.09:248][150]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.30-10.30.10:130][150]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.30-10.30.11:121][150]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.03.30-10.30.11:173][150]Cmd: MAP LOAD FILE="../../../../../../Downloads/VR4NewScene/VR4NewScene/VR4/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.30-10.30.11:173][150]LightingResults: New page: Lighting Build
+[2017.03.30-10.30.11:175][150]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2017.03.30-10.30.11:175][150]MapCheck: New page: Map Check
+[2017.03.30-10.30.11:175][150]LightingResults: New page: Lighting Build
+[2017.03.30-10.30.11:281][150]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.30-10.30.11:327][150]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.30-10.30.11:374][150]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.887ms to complete.
+[2017.03.30-10.30.11:375][150]LogFileHelpers: Loading map 'MotionControllerMap' took 0.203
+[2017.03.30-10.30.16:807][783]MapCheck: New page: Map Check
+[2017.03.30-10.30.16:950][783]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.30-10.30.16:950][783]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.30-10.30.17:235][783]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.30-10.30.17:261][783]LogTemp:Display: Added material ShaderMap 0x000001C4296A7C80 with Material 0x000001C479AE0D00 to ShaderMapsBeingCompiled
+[2017.03.30-10.30.17:276][783]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x000001C4296A7C80
+[2017.03.30-10.30.17:277][783]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.03.30-10.30.17:279][783]LogTemp:Display: Added material ShaderMap 0x000001C4296A7580 with Material 0x000001C479AE0A00 to ShaderMapsBeingCompiled
+[2017.03.30-10.30.17:281][783]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, GameThreadShaderMap 0x000001C4296A7580
+[2017.03.30-10.30.17:283][783]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MainMaterial, compiling. 
+[2017.03.30-10.30.17:284][783]LogTemp:Display: Added material ShaderMap 0x000001C4296A6780 with Material 0x000001C429713400 to ShaderMapsBeingCompiled
+[2017.03.30-10.30.17:286][783]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MainMaterial, GameThreadShaderMap 0x000001C4296A6780
+[2017.03.30-10.30.17:289][783]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass_Instance, compiling. 
+[2017.03.30-10.30.17:290][783]LogTemp:Display: Added material ShaderMap 0x000001C4296A5D00 with Material 0x000001C429712E00 to ShaderMapsBeingCompiled
+[2017.03.30-10.30.17:292][783]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Glass_Instance, GameThreadShaderMap 0x000001C4296A5D00
+[2017.03.30-10.30.17:295][783]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.03.30-10.30.17:296][783]LogTemp:Display: Added material ShaderMap 0x000001C4296A5280 with Material 0x000001C429711600 to ShaderMapsBeingCompiled
+[2017.03.30-10.30.17:298][783]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MatineeCam_mat, GameThreadShaderMap 0x000001C4296A5280
+[2017.03.30-10.30.18:658][783]LogTemp:Display: Finished compile of shader map 0x000001C4296A5D00
+[2017.03.30-10.30.18:658][783]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Glass_Instance complete, GameThreadShaderMap 0x000001C4296A5D00, marking material FDebugViewModeMaterialProxy Glass_Instance as finished
+[2017.03.30-10.30.18:658][783]LogTemp:Display: Marking material as finished 0x000001C429712E00
+[2017.03.30-10.30.18:672][783]LogTemp:Display: Finished compile of shader map 0x000001C4296A7C80
+[2017.03.30-10.30.18:672][783]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x000001C4296A7C80, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.30-10.30.18:672][783]LogTemp:Display: Marking material as finished 0x000001C479AE0D00
+[2017.03.30-10.30.18:675][783]LogTemp:Display: Finished compile of shader map 0x000001C4296A6780
+[2017.03.30-10.30.18:675][783]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MainMaterial complete, GameThreadShaderMap 0x000001C4296A6780, marking material FDebugViewModeMaterialProxy MainMaterial as finished
+[2017.03.30-10.30.18:675][783]LogTemp:Display: Marking material as finished 0x000001C429713400
+[2017.03.30-10.30.18:690][783]LogTemp:Display: Finished compile of shader map 0x000001C4296A7580
+[2017.03.30-10.30.18:690][783]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 complete, GameThreadShaderMap 0x000001C4296A7580, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 as finished
+[2017.03.30-10.30.18:690][783]LogTemp:Display: Marking material as finished 0x000001C479AE0A00
+[2017.03.30-10.30.18:787][783]LogTemp:Display: Finished compile of shader map 0x000001C4296A5280
+[2017.03.30-10.30.18:787][783]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MatineeCam_mat complete, GameThreadShaderMap 0x000001C4296A5280, marking material FDebugViewModeMaterialProxy MatineeCam_mat as finished
+[2017.03.30-10.30.18:787][783]LogTemp:Display: Marking material as finished 0x000001C429711600
+[2017.03.30-10.30.18:789][783]TextureStreamingBuild:Display: Compiling optional shaders took 1.560 seconds.
+[2017.03.30-10.30.18:823][783]LogLevel:Display: Export Material TexCoord Scales took 0.034 seconds.
+[2017.03.30-10.30.18:829][783]TextureStreamingBuild:Display: Build Texture Streaming took 0.006 seconds.
+[2017.03.30-10.30.18:859][783]LightingResults: New page: Lighting Build - Mar 30, 2017, 2:30:18 PM
+[2017.03.30-10.30.18:985][783]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.30-10.30.19:137][783]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.30-10.30.19:148][783]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.30-10.30.19:659][783]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.30-10.30.19:659][783]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12380
+[2017.03.30-10.30.22:278][783]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.03.30-10.30.22:278][783]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.30-10.30.22:278][783]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.30-10.30.22:278][783]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.30-10.30.22:278][783]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.30-10.30.22:278][783]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.30-10.30.22:443][783]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.30-10.30.22:444][783]MapCheck: New page: MotionControllerMap - Mar 30, 2017, 2:30:22 PM
+[2017.03.30-10.30.22:508][783]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.03.30-10.30.22:556][783]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 111.875ms to complete.
+[2017.03.30-10.30.22:578][783]LogEditorBuildUtils: Build time 0:05
+[2017.03.30-10.30.22:750][784]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MainMaterial, compiling. 
+[2017.03.30-10.30.22:751][784]LogTemp:Display: Added material ShaderMap 0x000001C426676080 with Material 0x000001C4264BF700 to ShaderMapsBeingCompiled
+[2017.03.30-10.30.22:755][784]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer MainMaterial, GameThreadShaderMap 0x000001C426676080
+[2017.03.30-10.30.22:757][784]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MainMaterial, compiling. 
+[2017.03.30-10.30.22:758][784]LogTemp:Display: Added material ShaderMap 0x000001C426677200 with Material 0x000001C42655D000 to ShaderMapsBeingCompiled
+[2017.03.30-10.30.22:760][784]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer MainMaterial, GameThreadShaderMap 0x000001C426677200
+[2017.03.30-10.30.22:782][785]LogTemp:Display: Added shader map 0x000001C426676080 from material 0x000001C426610700
+[2017.03.30-10.30.22:782][785]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MainMaterial_Inst, linking to other GameThreadShaderMap 0x000001C426676080
+[2017.03.30-10.30.22:784][785]LogTemp:Display: Added shader map 0x000001C426677200 from material 0x000001C426611300
+[2017.03.30-10.30.22:784][785]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MainMaterial_Inst, linking to other GameThreadShaderMap 0x000001C426677200
+[2017.03.30-10.30.22:787][785]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass_Instance, compiling. 
+[2017.03.30-10.30.22:787][785]LogTemp:Display: Added material ShaderMap 0x000001C40AC18480 with Material 0x000001C426611F00 to ShaderMapsBeingCompiled
+[2017.03.30-10.30.22:790][785]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Glass_Instance, GameThreadShaderMap 0x000001C40AC18480
+[2017.03.30-10.30.22:793][785]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass_Instance, compiling. 
+[2017.03.30-10.30.22:794][785]LogTemp:Display: Added material ShaderMap 0x000001C4264D6B00 with Material 0x000001C426613700 to ShaderMapsBeingCompiled
+[2017.03.30-10.30.22:797][785]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Glass_Instance, GameThreadShaderMap 0x000001C4264D6B00
+[2017.03.30-10.30.23:453][786]LogTemp:Display: Finished compile of shader map 0x000001C40AC18480
+[2017.03.30-10.30.23:453][786]LogTemp:Display: Shader map FLightmassMaterialRenderer Glass_Instance complete, GameThreadShaderMap 0x000001C40AC18480, marking material FLightmassMaterialRenderer Glass_Instance as finished
+[2017.03.30-10.30.23:453][786]LogTemp:Display: Marking material as finished 0x000001C426611F00
+[2017.03.30-10.30.23:455][786]LogTemp:Display: Finished compile of shader map 0x000001C4264D6B00
+[2017.03.30-10.30.23:455][786]LogTemp:Display: Shader map FLightmassMaterialRenderer Glass_Instance complete, GameThreadShaderMap 0x000001C4264D6B00, marking material FLightmassMaterialRenderer Glass_Instance as finished
+[2017.03.30-10.30.23:455][786]LogTemp:Display: Marking material as finished 0x000001C426613700
+[2017.03.30-10.30.23:457][786]LogTemp:Display: Finished compile of shader map 0x000001C426677200
+[2017.03.30-10.30.23:457][786]LogTemp:Display: Shader map FLightmassMaterialRenderer MainMaterial complete, GameThreadShaderMap 0x000001C426677200, marking material FLightmassMaterialRenderer MainMaterial as finished
+[2017.03.30-10.30.23:457][786]LogTemp:Display: Marking material as finished 0x000001C42655D000
+[2017.03.30-10.30.23:458][786]LogTemp:Display: Shader map FLightmassMaterialRenderer MainMaterial complete, GameThreadShaderMap 0x000001C426677200, marking material FLightmassMaterialRenderer MainMaterial_Inst as finished
+[2017.03.30-10.30.23:458][786]LogTemp:Display: Marking material as finished 0x000001C426611300
+[2017.03.30-10.30.23:460][786]LogTemp:Display: Finished compile of shader map 0x000001C426676080
+[2017.03.30-10.30.23:460][786]LogTemp:Display: Shader map FLightmassMaterialRenderer MainMaterial complete, GameThreadShaderMap 0x000001C426676080, marking material FLightmassMaterialRenderer MainMaterial as finished
+[2017.03.30-10.30.23:460][786]LogTemp:Display: Marking material as finished 0x000001C4264BF700
+[2017.03.30-10.30.23:461][786]LogTemp:Display: Shader map FLightmassMaterialRenderer MainMaterial complete, GameThreadShaderMap 0x000001C426676080, marking material FLightmassMaterialRenderer MainMaterial_Inst as finished
+[2017.03.30-10.30.23:461][786]LogTemp:Display: Marking material as finished 0x000001C426610700
+[2017.03.30-10.30.34:606][819]Job is a success!
+[2017.03.30-10.30.34:824][820]LightingResults:Error: Error PointLight2_4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.03.30-10.30.35:183][820]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2017.03.30-10.30.35:183][820]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.30-10.30.35:183][820]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.03.30-10.30.35:183][820]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2017.03.30-10.30.35:183][820]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.03.30-10.30.35:183][820]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.30-10.30.35:343][820]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2017.03.30-10.30.35:344][820]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2017.03.30-10.30.35:371][820]Lightmass on JESSE-MSI: 11.1 sec total, 123 ms importing, 16 ms setup, 3.55 sec photons, 7.44 sec processing, 0 ms extra exporting [157/157 mappings]. Threads: 51.9 sec total, 16.0 sec processing.
+[2017.03.30-10.30.35:401][820]LogStaticLightingSystem: Illumination: 16.5 sec (358 ms encoding lightmaps, 155 ms encoding shadowmaps)
+[2017.03.30-10.30.35:401][820]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (0.5 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.03.30-10.30.35:401][820]LogStaticLightingSystem: Shadowmap texture memory: 3.0 MB (0.3 MB streaming, 2.7 MB non-streaming), 2 textures
+[2017.03.30-10.30.36:230][820]DumpUnbuiltLightIteractions
+[2017.03.30-10.30.36:230][820]Lights with unbuilt interactions: 0
+[2017.03.30-10.30.36:230][820]
+[2017.03.30-10.30.36:230][820]Primitives with unbuilt interactions: 0
+[2017.03.30-10.30.36:238][821]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.30-10.30.36:238][821]MapCheck: New page: MotionControllerMap - Mar 30, 2017, 2:30:36 PM
+[2017.03.30-10.30.36:291][821]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.104ms to complete.
+[2017.03.30-10.31.20:039][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PrototypeRoomFinal_Muren)
+[2017.03.30-10.31.23:343][396]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (BigCube3)
+[2017.03.30-10.32.01:609][961]LogTemp: Repeting last play command: VR Preview
+[2017.03.30-10.32.01:908][961]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.32.01:908][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.30-10.32.01:918][961]PIE: New page: PIE session: MotionControllerMap (Mar 30, 2017, 2:32:01 PM)
+[2017.03.30-10.32.01:923][961]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.03.30-10.32.01:942][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018990s)
+[2017.03.30-10.32.01:942][961]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.03.30-10.32.01:943][961]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2017.03.30-10.32.01:943][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.024731s)
+[2017.03.30-10.32.01:976][961]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.30-10.32.02:026][961]LogInit: FAudioDevice initialized.
+[2017.03.30-10.32.02:097][961]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.30-10.32.02:097][961]LogLoad: Game class is 'GameModeBase'
+[2017.03.30-10.32.02:140][961]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.03.30-12.32.02
+[2017.03.30-10.32.02:188][961]LogWorld: Bringing up level for play took: 0.050135
+[2017.03.30-10.32.02:232][961]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.03.30-10.32.02:299][961]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.223
+[2017.03.30-10.32.02:299][961]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.32.02:345][961]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:12958).
+[2017.03.30-10.32.03:122][ 42]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.32.03:237][ 42]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.32.05:328][275]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.32.05:328][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.30-10.32.05:329][275]PIE: New page: SIE session: MotionControllerMap (Mar 30, 2017, 2:32:05 PM)
+[2017.03.30-10.32.05:329][275]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.03.30-10.32.05:339][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009779s)
+[2017.03.30-10.32.05:339][275]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.03.30-10.32.05:339][275]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2017.03.30-10.32.05:339][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010744s)
+[2017.03.30-10.32.05:373][275]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.30-10.32.05:439][275]LogInit: FAudioDevice initialized.
+[2017.03.30-10.32.05:545][275]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.30-10.32.05:545][275]LogLoad: Game class is 'GameModeBase'
+[2017.03.30-10.32.05:547][275]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.03.30-12.32.05
+[2017.03.30-10.32.05:548][275]LogWorld: Bringing up level for play took: 0.001402
+[2017.03.30-10.32.05:548][275]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.30-10.32.05:566][275]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.49
+[2017.03.30-10.32.05:619][275]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.32.07:983][503]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (BigCube3)
+[2017.03.30-10.32.23:496][838]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (BigCube3)
+[2017.03.30-10.32.27:680][207]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (BigCube3)
+[2017.03.30-10.32.38:429][227]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (BigCube2)
+[2017.03.30-10.32.55:862][911]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (BigCube2)
+[2017.03.30-10.33.09:885][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PrototypeRoomFinal_CubePuzzel2)
+[2017.03.30-10.33.19:362][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.33.19:511][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.33.24:102][612]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.03.30-10.33.25:316][612]LogSlate: Took 0.031971 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.30-10.33.25:945][613]LogSlate: Took 0.016087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.30-10.35.07:081][307]LogTemp: Repeting last play command: Simulate
+[2017.03.30-10.35.07:099][307]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.35.07:099][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.30-10.35.07:099][307]PIE: New page: SIE session: MotionControllerMap (Mar 30, 2017, 2:35:07 PM)
+[2017.03.30-10.35.07:099][307]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.03.30-10.35.07:109][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010417s)
+[2017.03.30-10.35.07:110][307]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.03.30-10.35.07:110][307]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2017.03.30-10.35.07:110][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.011285s)
+[2017.03.30-10.35.07:177][307]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.30-10.35.07:242][307]LogInit: FAudioDevice initialized.
+[2017.03.30-10.35.07:271][307]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.30-10.35.07:271][307]LogLoad: Game class is 'GameModeBase'
+[2017.03.30-10.35.07:274][307]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.03.30-12.35.07
+[2017.03.30-10.35.07:274][307]LogWorld: Bringing up level for play took: 0.001862
+[2017.03.30-10.35.07:274][307]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.30-10.35.07:277][307]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.201
+[2017.03.30-10.35.07:319][307]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.35.11:997][614]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (PrototypeRoomFinal_Vloer)
+[2017.03.30-10.35.14:822][764]LogBlueprintUserMessages: [VRPawn_507] 102.0
+[2017.03.30-10.35.14:848][765]LogBlueprintUserMessages: [VRPawn_507] 103.0
+[2017.03.30-10.35.14:865][766]LogBlueprintUserMessages: [VRPawn_507] 104.0
+[2017.03.30-10.35.14:880][767]LogBlueprintUserMessages: [VRPawn_507] 105.0
+[2017.03.30-10.35.14:895][768]LogBlueprintUserMessages: [VRPawn_507] 106.0
+[2017.03.30-10.35.14:911][769]LogBlueprintUserMessages: [VRPawn_507] 107.0
+[2017.03.30-10.35.14:926][770]LogBlueprintUserMessages: [VRPawn_507] 108.0
+[2017.03.30-10.35.14:940][771]LogBlueprintUserMessages: [VRPawn_507] 109.0
+[2017.03.30-10.35.14:956][772]LogBlueprintUserMessages: [VRPawn_507] 110.0
+[2017.03.30-10.35.14:972][773]LogBlueprintUserMessages: [VRPawn_507] 111.0
+[2017.03.30-10.35.14:986][774]LogBlueprintUserMessages: [VRPawn_507] 112.0
+[2017.03.30-10.35.15:000][775]LogBlueprintUserMessages: [VRPawn_507] 113.0
+[2017.03.30-10.35.15:015][776]LogBlueprintUserMessages: [VRPawn_507] 114.0
+[2017.03.30-10.35.15:030][777]LogBlueprintUserMessages: [VRPawn_507] 115.0
+[2017.03.30-10.35.15:046][778]LogBlueprintUserMessages: [VRPawn_507] 116.0
+[2017.03.30-10.35.15:061][779]LogBlueprintUserMessages: [VRPawn_507] 117.0
+[2017.03.30-10.35.15:075][780]LogBlueprintUserMessages: [VRPawn_507] 118.0
+[2017.03.30-10.35.15:090][781]LogBlueprintUserMessages: [VRPawn_507] 119.0
+[2017.03.30-10.35.15:105][782]LogBlueprintUserMessages: [VRPawn_507] 120.0
+[2017.03.30-10.35.15:120][783]LogBlueprintUserMessages: [VRPawn_507] 121.0
+[2017.03.30-10.35.15:135][784]LogBlueprintUserMessages: [VRPawn_507] 122.0
+[2017.03.30-10.35.15:149][785]LogBlueprintUserMessages: [VRPawn_507] 123.0
+[2017.03.30-10.35.15:165][786]LogBlueprintUserMessages: [VRPawn_507] 124.0
+[2017.03.30-10.35.15:179][787]LogBlueprintUserMessages: [VRPawn_507] 125.0
+[2017.03.30-10.35.15:195][788]LogBlueprintUserMessages: [VRPawn_507] 126.0
+[2017.03.30-10.35.15:210][789]LogBlueprintUserMessages: [VRPawn_507] 127.0
+[2017.03.30-10.35.15:225][790]LogBlueprintUserMessages: [VRPawn_507] 128.0
+[2017.03.30-10.35.15:240][791]LogBlueprintUserMessages: [VRPawn_507] 129.0
+[2017.03.30-10.35.15:255][792]LogBlueprintUserMessages: [VRPawn_507] 130.0
+[2017.03.30-10.35.15:383][800]LogBlueprintUserMessages: [VRPawn_507] 127.0
+[2017.03.30-10.35.15:399][801]LogBlueprintUserMessages: [VRPawn_507] 126.0
+[2017.03.30-10.35.15:414][802]LogBlueprintUserMessages: [VRPawn_507] 125.0
+[2017.03.30-10.35.15:428][803]LogBlueprintUserMessages: [VRPawn_507] 124.0
+[2017.03.30-10.35.15:444][804]LogBlueprintUserMessages: [VRPawn_507] 123.0
+[2017.03.30-10.35.15:459][805]LogBlueprintUserMessages: [VRPawn_507] 122.0
+[2017.03.30-10.35.15:474][806]LogBlueprintUserMessages: [VRPawn_507] 121.0
+[2017.03.30-10.35.15:489][807]LogBlueprintUserMessages: [VRPawn_507] 120.0
+[2017.03.30-10.35.15:505][808]LogBlueprintUserMessages: [VRPawn_507] 119.0
+[2017.03.30-10.35.15:519][809]LogBlueprintUserMessages: [VRPawn_507] 118.0
+[2017.03.30-10.35.15:534][810]LogBlueprintUserMessages: [VRPawn_507] 117.0
+[2017.03.30-10.35.15:549][811]LogBlueprintUserMessages: [VRPawn_507] 116.0
+[2017.03.30-10.35.15:565][812]LogBlueprintUserMessages: [VRPawn_507] 115.0
+[2017.03.30-10.35.15:580][813]LogBlueprintUserMessages: [VRPawn_507] 114.0
+[2017.03.30-10.35.15:595][814]LogBlueprintUserMessages: [VRPawn_507] 113.0
+[2017.03.30-10.35.15:610][815]LogBlueprintUserMessages: [VRPawn_507] 112.0
+[2017.03.30-10.35.15:625][816]LogBlueprintUserMessages: [VRPawn_507] 111.0
+[2017.03.30-10.35.15:640][817]LogBlueprintUserMessages: [VRPawn_507] 110.0
+[2017.03.30-10.35.15:655][818]LogBlueprintUserMessages: [VRPawn_507] 109.0
+[2017.03.30-10.35.15:671][819]LogBlueprintUserMessages: [VRPawn_507] 108.0
+[2017.03.30-10.35.15:686][820]LogBlueprintUserMessages: [VRPawn_507] 107.0
+[2017.03.30-10.35.15:745][824]LogBlueprintUserMessages: [VRPawn_507] 110.0
+[2017.03.30-10.35.15:759][825]LogBlueprintUserMessages: [VRPawn_507] 111.0
+[2017.03.30-10.35.15:775][826]LogBlueprintUserMessages: [VRPawn_507] 112.0
+[2017.03.30-10.35.15:790][827]LogBlueprintUserMessages: [VRPawn_507] 113.0
+[2017.03.30-10.35.15:806][828]LogBlueprintUserMessages: [VRPawn_507] 114.0
+[2017.03.30-10.35.15:820][829]LogBlueprintUserMessages: [VRPawn_507] 115.0
+[2017.03.30-10.35.15:835][830]LogBlueprintUserMessages: [VRPawn_507] 116.0
+[2017.03.30-10.35.15:851][831]LogBlueprintUserMessages: [VRPawn_507] 117.0
+[2017.03.30-10.35.15:866][832]LogBlueprintUserMessages: [VRPawn_507] 118.0
+[2017.03.30-10.35.15:881][833]LogBlueprintUserMessages: [VRPawn_507] 119.0
+[2017.03.30-10.35.15:896][834]LogBlueprintUserMessages: [VRPawn_507] 120.0
+[2017.03.30-10.35.15:911][835]LogBlueprintUserMessages: [VRPawn_507] 121.0
+[2017.03.30-10.35.15:926][836]LogBlueprintUserMessages: [VRPawn_507] 122.0
+[2017.03.30-10.35.15:941][837]LogBlueprintUserMessages: [VRPawn_507] 123.0
+[2017.03.30-10.35.15:956][838]LogBlueprintUserMessages: [VRPawn_507] 124.0
+[2017.03.30-10.35.15:971][839]LogBlueprintUserMessages: [VRPawn_507] 125.0
+[2017.03.30-10.35.15:986][840]LogBlueprintUserMessages: [VRPawn_507] 126.0
+[2017.03.30-10.35.16:001][841]LogBlueprintUserMessages: [VRPawn_507] 127.0
+[2017.03.30-10.35.16:016][842]LogBlueprintUserMessages: [VRPawn_507] 128.0
+[2017.03.30-10.35.16:032][843]LogBlueprintUserMessages: [VRPawn_507] 129.0
+[2017.03.30-10.35.16:047][844]LogBlueprintUserMessages: [VRPawn_507] 130.0
+[2017.03.30-10.35.16:062][845]LogBlueprintUserMessages: [VRPawn_507] 131.0
+[2017.03.30-10.35.16:077][846]LogBlueprintUserMessages: [VRPawn_507] 132.0
+[2017.03.30-10.35.16:092][847]LogBlueprintUserMessages: [VRPawn_507] 133.0
+[2017.03.30-10.35.16:107][848]LogBlueprintUserMessages: [VRPawn_507] 134.0
+[2017.03.30-10.35.16:122][849]LogBlueprintUserMessages: [VRPawn_507] 135.0
+[2017.03.30-10.35.16:152][851]LogBlueprintUserMessages: [VRPawn_507] 132.0
+[2017.03.30-10.35.16:167][852]LogBlueprintUserMessages: [VRPawn_507] 131.0
+[2017.03.30-10.35.16:182][853]LogBlueprintUserMessages: [VRPawn_507] 130.0
+[2017.03.30-10.35.16:197][854]LogBlueprintUserMessages: [VRPawn_507] 129.0
+[2017.03.30-10.35.16:212][855]LogBlueprintUserMessages: [VRPawn_507] 128.0
+[2017.03.30-10.35.16:227][856]LogBlueprintUserMessages: [VRPawn_507] 127.0
+[2017.03.30-10.35.16:242][857]LogBlueprintUserMessages: [VRPawn_507] 126.0
+[2017.03.30-10.35.16:257][858]LogBlueprintUserMessages: [VRPawn_507] 125.0
+[2017.03.30-10.35.16:272][859]LogBlueprintUserMessages: [VRPawn_507] 124.0
+[2017.03.30-10.35.16:287][860]LogBlueprintUserMessages: [VRPawn_507] 123.0
+[2017.03.30-10.35.16:302][861]LogBlueprintUserMessages: [VRPawn_507] 122.0
+[2017.03.30-10.35.16:317][862]LogBlueprintUserMessages: [VRPawn_507] 121.0
+[2017.03.30-10.35.16:333][863]LogBlueprintUserMessages: [VRPawn_507] 120.0
+[2017.03.30-10.35.16:347][864]LogBlueprintUserMessages: [VRPawn_507] 119.0
+[2017.03.30-10.35.16:362][865]LogBlueprintUserMessages: [VRPawn_507] 118.0
+[2017.03.30-10.35.16:377][866]LogBlueprintUserMessages: [VRPawn_507] 117.0
+[2017.03.30-10.35.16:407][868]LogBlueprintUserMessages: [VRPawn_507] 120.0
+[2017.03.30-10.35.16:422][869]LogBlueprintUserMessages: [VRPawn_507] 121.0
+[2017.03.30-10.35.16:436][870]LogBlueprintUserMessages: [VRPawn_507] 122.0
+[2017.03.30-10.35.16:451][871]LogBlueprintUserMessages: [VRPawn_507] 123.0
+[2017.03.30-10.35.16:466][872]LogBlueprintUserMessages: [VRPawn_507] 124.0
+[2017.03.30-10.35.16:481][873]LogBlueprintUserMessages: [VRPawn_507] 125.0
+[2017.03.30-10.35.16:496][874]LogBlueprintUserMessages: [VRPawn_507] 126.0
+[2017.03.30-10.35.16:510][875]LogBlueprintUserMessages: [VRPawn_507] 127.0
+[2017.03.30-10.35.16:525][876]LogBlueprintUserMessages: [VRPawn_507] 128.0
+[2017.03.30-10.35.16:540][877]LogBlueprintUserMessages: [VRPawn_507] 129.0
+[2017.03.30-10.35.16:556][878]LogBlueprintUserMessages: [VRPawn_507] 130.0
+[2017.03.30-10.35.16:571][879]LogBlueprintUserMessages: [VRPawn_507] 131.0
+[2017.03.30-10.35.16:587][880]LogBlueprintUserMessages: [VRPawn_507] 132.0
+[2017.03.30-10.35.16:603][881]LogBlueprintUserMessages: [VRPawn_507] 133.0
+[2017.03.30-10.35.16:618][882]LogBlueprintUserMessages: [VRPawn_507] 134.0
+[2017.03.30-10.35.16:634][883]LogBlueprintUserMessages: [VRPawn_507] 135.0
+[2017.03.30-10.35.17:326][929]LogBlueprintUserMessages: [VRPawn_507] 136.0
+[2017.03.30-10.35.17:340][930]LogBlueprintUserMessages: [VRPawn_507] 137.0
+[2017.03.30-10.35.17:356][931]LogBlueprintUserMessages: [VRPawn_507] 138.0
+[2017.03.30-10.35.17:371][932]LogBlueprintUserMessages: [VRPawn_507] 139.0
+[2017.03.30-10.35.17:386][933]LogBlueprintUserMessages: [VRPawn_507] 140.0
+[2017.03.30-10.35.17:401][934]LogBlueprintUserMessages: [VRPawn_507] 141.0
+[2017.03.30-10.35.17:416][935]LogBlueprintUserMessages: [VRPawn_507] 142.0
+[2017.03.30-10.35.17:431][936]LogBlueprintUserMessages: [VRPawn_507] 143.0
+[2017.03.30-10.35.17:446][937]LogBlueprintUserMessages: [VRPawn_507] 144.0
+[2017.03.30-10.35.17:460][938]LogBlueprintUserMessages: [VRPawn_507] 145.0
+[2017.03.30-10.35.17:475][939]LogBlueprintUserMessages: [VRPawn_507] 146.0
+[2017.03.30-10.35.17:490][940]LogBlueprintUserMessages: [VRPawn_507] 147.0
+[2017.03.30-10.35.17:505][941]LogBlueprintUserMessages: [VRPawn_507] 148.0
+[2017.03.30-10.35.17:520][942]LogBlueprintUserMessages: [VRPawn_507] 149.0
+[2017.03.30-10.35.17:535][943]LogBlueprintUserMessages: [VRPawn_507] 150.0
+[2017.03.30-10.35.17:549][944]LogBlueprintUserMessages: [VRPawn_507] 151.0
+[2017.03.30-10.35.17:565][945]LogBlueprintUserMessages: [VRPawn_507] 152.0
+[2017.03.30-10.35.17:580][946]LogBlueprintUserMessages: [VRPawn_507] 153.0
+[2017.03.30-10.35.17:596][947]LogBlueprintUserMessages: [VRPawn_507] 154.0
+[2017.03.30-10.35.17:611][948]LogBlueprintUserMessages: [VRPawn_507] 155.0
+[2017.03.30-10.35.17:626][949]LogBlueprintUserMessages: [VRPawn_507] 156.0
+[2017.03.30-10.35.17:656][951]LogBlueprintUserMessages: [VRPawn_507] 153.0
+[2017.03.30-10.35.17:671][952]LogBlueprintUserMessages: [VRPawn_507] 152.0
+[2017.03.30-10.35.17:685][953]LogBlueprintUserMessages: [VRPawn_507] 151.0
+[2017.03.30-10.35.17:700][954]LogBlueprintUserMessages: [VRPawn_507] 150.0
+[2017.03.30-10.35.17:715][955]LogBlueprintUserMessages: [VRPawn_507] 149.0
+[2017.03.30-10.35.17:730][956]LogBlueprintUserMessages: [VRPawn_507] 148.0
+[2017.03.30-10.35.17:746][957]LogBlueprintUserMessages: [VRPawn_507] 147.0
+[2017.03.30-10.35.17:761][958]LogBlueprintUserMessages: [VRPawn_507] 146.0
+[2017.03.30-10.35.17:776][959]LogBlueprintUserMessages: [VRPawn_507] 145.0
+[2017.03.30-10.35.17:791][960]LogBlueprintUserMessages: [VRPawn_507] 144.0
+[2017.03.30-10.35.17:806][961]LogBlueprintUserMessages: [VRPawn_507] 143.0
+[2017.03.30-10.35.17:821][962]LogBlueprintUserMessages: [VRPawn_507] 142.0
+[2017.03.30-10.35.17:836][963]LogBlueprintUserMessages: [VRPawn_507] 141.0
+[2017.03.30-10.35.17:851][964]LogBlueprintUserMessages: [VRPawn_507] 140.0
+[2017.03.30-10.35.17:866][965]LogBlueprintUserMessages: [VRPawn_507] 139.0
+[2017.03.30-10.35.17:881][966]LogBlueprintUserMessages: [VRPawn_507] 138.0
+[2017.03.30-10.35.17:896][967]LogBlueprintUserMessages: [VRPawn_507] 137.0
+[2017.03.30-10.35.17:911][968]LogBlueprintUserMessages: [VRPawn_507] 136.0
+[2017.03.30-10.35.17:926][969]LogBlueprintUserMessages: [VRPawn_507] 135.0
+[2017.03.30-10.35.17:941][970]LogBlueprintUserMessages: [VRPawn_507] 134.0
+[2017.03.30-10.35.17:957][971]LogBlueprintUserMessages: [VRPawn_507] 133.0
+[2017.03.30-10.35.17:972][972]LogBlueprintUserMessages: [VRPawn_507] 132.0
+[2017.03.30-10.35.17:986][973]LogBlueprintUserMessages: [VRPawn_507] 131.0
+[2017.03.30-10.35.18:001][974]LogBlueprintUserMessages: [VRPawn_507] 130.0
+[2017.03.30-10.35.18:016][975]LogBlueprintUserMessages: [VRPawn_507] 129.0
+[2017.03.30-10.35.18:031][976]LogBlueprintUserMessages: [VRPawn_507] 128.0
+[2017.03.30-10.35.18:046][977]LogBlueprintUserMessages: [VRPawn_507] 127.0
+[2017.03.30-10.35.18:061][978]LogBlueprintUserMessages: [VRPawn_507] 126.0
+[2017.03.30-10.35.18:076][979]LogBlueprintUserMessages: [VRPawn_507] 125.0
+[2017.03.30-10.35.18:091][980]LogBlueprintUserMessages: [VRPawn_507] 124.0
+[2017.03.30-10.35.18:107][981]LogBlueprintUserMessages: [VRPawn_507] 123.0
+[2017.03.30-10.35.18:122][982]LogBlueprintUserMessages: [VRPawn_507] 122.0
+[2017.03.30-10.35.18:136][983]LogBlueprintUserMessages: [VRPawn_507] 121.0
+[2017.03.30-10.35.18:152][984]LogBlueprintUserMessages: [VRPawn_507] 120.0
+[2017.03.30-10.35.18:167][985]LogBlueprintUserMessages: [VRPawn_507] 119.0
+[2017.03.30-10.35.18:182][986]LogBlueprintUserMessages: [VRPawn_507] 118.0
+[2017.03.30-10.35.18:196][987]LogBlueprintUserMessages: [VRPawn_507] 117.0
+[2017.03.30-10.35.18:212][988]LogBlueprintUserMessages: [VRPawn_507] 116.0
+[2017.03.30-10.35.18:227][989]LogBlueprintUserMessages: [VRPawn_507] 119.0
+[2017.03.30-10.35.18:228][989]LogBlueprintUserMessages: [VRPawn_507] 116.0
+[2017.03.30-10.35.18:242][990]LogBlueprintUserMessages: [VRPawn_507] 119.0
+[2017.03.30-10.35.18:257][991]LogBlueprintUserMessages: [VRPawn_507] 120.0
+[2017.03.30-10.35.18:272][992]LogBlueprintUserMessages: [VRPawn_507] 121.0
+[2017.03.30-10.35.18:287][993]LogBlueprintUserMessages: [VRPawn_507] 122.0
+[2017.03.30-10.35.18:301][994]LogBlueprintUserMessages: [VRPawn_507] 123.0
+[2017.03.30-10.35.18:317][995]LogBlueprintUserMessages: [VRPawn_507] 124.0
+[2017.03.30-10.35.18:331][996]LogBlueprintUserMessages: [VRPawn_507] 125.0
+[2017.03.30-10.35.18:346][997]LogBlueprintUserMessages: [VRPawn_507] 126.0
+[2017.03.30-10.35.18:362][998]LogBlueprintUserMessages: [VRPawn_507] 127.0
+[2017.03.30-10.35.18:377][999]LogBlueprintUserMessages: [VRPawn_507] 128.0
+[2017.03.30-10.35.18:392][  0]LogBlueprintUserMessages: [VRPawn_507] 129.0
+[2017.03.30-10.35.18:407][  1]LogBlueprintUserMessages: [VRPawn_507] 130.0
+[2017.03.30-10.35.18:422][  2]LogBlueprintUserMessages: [VRPawn_507] 131.0
+[2017.03.30-10.35.18:437][  3]LogBlueprintUserMessages: [VRPawn_507] 132.0
+[2017.03.30-10.35.18:452][  4]LogBlueprintUserMessages: [VRPawn_507] 133.0
+[2017.03.30-10.35.18:467][  5]LogBlueprintUserMessages: [VRPawn_507] 134.0
+[2017.03.30-10.35.18:482][  6]LogBlueprintUserMessages: [VRPawn_507] 135.0
+[2017.03.30-10.35.18:497][  7]LogBlueprintUserMessages: [VRPawn_507] 136.0
+[2017.03.30-10.35.18:512][  8]LogBlueprintUserMessages: [VRPawn_507] 137.0
+[2017.03.30-10.35.18:527][  9]LogBlueprintUserMessages: [VRPawn_507] 138.0
+[2017.03.30-10.35.18:543][ 10]LogBlueprintUserMessages: [VRPawn_507] 139.0
+[2017.03.30-10.35.18:558][ 11]LogBlueprintUserMessages: [VRPawn_507] 140.0
+[2017.03.30-10.35.18:572][ 12]LogBlueprintUserMessages: [VRPawn_507] 141.0
+[2017.03.30-10.35.18:587][ 13]LogBlueprintUserMessages: [VRPawn_507] 142.0
+[2017.03.30-10.35.18:602][ 14]LogBlueprintUserMessages: [VRPawn_507] 143.0
+[2017.03.30-10.35.18:617][ 15]LogBlueprintUserMessages: [VRPawn_507] 144.0
+[2017.03.30-10.35.19:248][ 57]LogBlueprintUserMessages: [VRPawn_507] 145.0
+[2017.03.30-10.35.19:263][ 58]LogBlueprintUserMessages: [VRPawn_507] 146.0
+[2017.03.30-10.35.19:278][ 59]LogBlueprintUserMessages: [VRPawn_507] 147.0
+[2017.03.30-10.35.19:293][ 60]LogBlueprintUserMessages: [VRPawn_507] 148.0
+[2017.03.30-10.35.19:308][ 61]LogBlueprintUserMessages: [VRPawn_507] 149.0
+[2017.03.30-10.35.19:324][ 62]LogBlueprintUserMessages: [VRPawn_507] 150.0
+[2017.03.30-10.35.19:339][ 63]LogBlueprintUserMessages: [VRPawn_507] 151.0
+[2017.03.30-10.35.19:355][ 64]LogBlueprintUserMessages: [VRPawn_507] 152.0
+[2017.03.30-10.35.19:371][ 65]LogBlueprintUserMessages: [VRPawn_507] 153.0
+[2017.03.30-10.35.19:386][ 66]LogBlueprintUserMessages: [VRPawn_507] 154.0
+[2017.03.30-10.35.19:401][ 67]LogBlueprintUserMessages: [VRPawn_507] 155.0
+[2017.03.30-10.35.19:417][ 68]LogBlueprintUserMessages: [VRPawn_507] 156.0
+[2017.03.30-10.35.19:432][ 69]LogBlueprintUserMessages: [VRPawn_507] 157.0
+[2017.03.30-10.35.19:447][ 70]LogBlueprintUserMessages: [VRPawn_507] 158.0
+[2017.03.30-10.35.19:463][ 71]LogBlueprintUserMessages: [VRPawn_507] 159.0
+[2017.03.30-10.35.19:478][ 72]LogBlueprintUserMessages: [VRPawn_507] 160.0
+[2017.03.30-10.35.19:493][ 73]LogBlueprintUserMessages: [VRPawn_507] 161.0
+[2017.03.30-10.35.19:508][ 74]LogBlueprintUserMessages: [VRPawn_507] 162.0
+[2017.03.30-10.35.19:524][ 75]LogBlueprintUserMessages: [VRPawn_507] 163.0
+[2017.03.30-10.35.19:539][ 76]LogBlueprintUserMessages: [VRPawn_507] 164.0
+[2017.03.30-10.35.19:554][ 77]LogBlueprintUserMessages: [VRPawn_507] 165.0
+[2017.03.30-10.35.19:569][ 78]LogBlueprintUserMessages: [VRPawn_507] 166.0
+[2017.03.30-10.35.19:583][ 79]LogBlueprintUserMessages: [VRPawn_507] 167.0
+[2017.03.30-10.35.19:598][ 80]LogBlueprintUserMessages: [VRPawn_507] 168.0
+[2017.03.30-10.35.19:613][ 81]LogBlueprintUserMessages: [VRPawn_507] 169.0
+[2017.03.30-10.35.19:628][ 82]LogBlueprintUserMessages: [VRPawn_507] 170.0
+[2017.03.30-10.35.19:644][ 83]LogBlueprintUserMessages: [VRPawn_507] 171.0
+[2017.03.30-10.35.19:658][ 84]LogBlueprintUserMessages: [VRPawn_507] 172.0
+[2017.03.30-10.35.19:674][ 85]LogBlueprintUserMessages: [VRPawn_507] 173.0
+[2017.03.30-10.35.19:688][ 86]LogBlueprintUserMessages: [VRPawn_507] 174.0
+[2017.03.30-10.35.19:703][ 87]LogBlueprintUserMessages: [VRPawn_507] 175.0
+[2017.03.30-10.35.19:717][ 88]LogBlueprintUserMessages: [VRPawn_507] 176.0
+[2017.03.30-10.35.19:732][ 89]LogBlueprintUserMessages: [VRPawn_507] 177.0
+[2017.03.30-10.35.19:747][ 90]LogBlueprintUserMessages: [VRPawn_507] 178.0
+[2017.03.30-10.35.19:762][ 91]LogBlueprintUserMessages: [VRPawn_507] 179.0
+[2017.03.30-10.35.19:777][ 92]LogBlueprintUserMessages: [VRPawn_507] 180.0
+[2017.03.30-10.35.19:792][ 93]LogBlueprintUserMessages: [VRPawn_507] 181.0
+[2017.03.30-10.35.19:807][ 94]LogBlueprintUserMessages: [VRPawn_507] 182.0
+[2017.03.30-10.35.19:822][ 95]LogBlueprintUserMessages: [VRPawn_507] 183.0
+[2017.03.30-10.35.19:837][ 96]LogBlueprintUserMessages: [VRPawn_507] 184.0
+[2017.03.30-10.35.19:852][ 97]LogBlueprintUserMessages: [VRPawn_507] 185.0
+[2017.03.30-10.35.19:867][ 98]LogBlueprintUserMessages: [VRPawn_507] 186.0
+[2017.03.30-10.35.19:882][ 99]LogBlueprintUserMessages: [VRPawn_507] 187.0
+[2017.03.30-10.35.19:897][100]LogBlueprintUserMessages: [VRPawn_507] 188.0
+[2017.03.30-10.35.19:912][101]LogBlueprintUserMessages: [VRPawn_507] 189.0
+[2017.03.30-10.35.19:926][102]LogBlueprintUserMessages: [VRPawn_507] 190.0
+[2017.03.30-10.35.19:942][103]LogBlueprintUserMessages: [VRPawn_507] 191.0
+[2017.03.30-10.35.19:957][104]LogBlueprintUserMessages: [VRPawn_507] 192.0
+[2017.03.30-10.35.19:972][105]LogBlueprintUserMessages: [VRPawn_507] 193.0
+[2017.03.30-10.35.19:987][106]LogBlueprintUserMessages: [VRPawn_507] 194.0
+[2017.03.30-10.35.20:001][107]LogBlueprintUserMessages: [VRPawn_507] 195.0
+[2017.03.30-10.35.20:017][108]LogBlueprintUserMessages: [VRPawn_507] 196.0
+[2017.03.30-10.35.20:031][109]LogBlueprintUserMessages: [VRPawn_507] 197.0
+[2017.03.30-10.35.20:047][110]LogBlueprintUserMessages: [VRPawn_507] 198.0
+[2017.03.30-10.35.20:062][111]LogBlueprintUserMessages: [VRPawn_507] 199.0
+[2017.03.30-10.35.20:077][112]LogBlueprintUserMessages: [VRPawn_507] 200.0
+[2017.03.30-10.35.20:092][113]LogBlueprintUserMessages: [VRPawn_507] 201.0
+[2017.03.30-10.35.20:107][114]LogBlueprintUserMessages: [VRPawn_507] 202.0
+[2017.03.30-10.35.20:121][115]LogBlueprintUserMessages: [VRPawn_507] 203.0
+[2017.03.30-10.35.20:137][116]LogBlueprintUserMessages: [VRPawn_507] 204.0
+[2017.03.30-10.35.20:151][117]LogBlueprintUserMessages: [VRPawn_507] 205.0
+[2017.03.30-10.35.20:166][118]LogBlueprintUserMessages: [VRPawn_507] 206.0
+[2017.03.30-10.35.20:180][119]LogBlueprintUserMessages: [VRPawn_507] 207.0
+[2017.03.30-10.35.20:196][120]LogBlueprintUserMessages: [VRPawn_507] 208.0
+[2017.03.30-10.35.20:211][121]LogBlueprintUserMessages: [VRPawn_507] 209.0
+[2017.03.30-10.35.20:226][122]LogBlueprintUserMessages: [VRPawn_507] 210.0
+[2017.03.30-10.35.20:241][123]LogBlueprintUserMessages: [VRPawn_507] 211.0
+[2017.03.30-10.35.20:255][124]LogBlueprintUserMessages: [VRPawn_507] 212.0
+[2017.03.30-10.35.20:270][125]LogBlueprintUserMessages: [VRPawn_507] 213.0
+[2017.03.30-10.35.20:284][126]LogBlueprintUserMessages: [VRPawn_507] 214.0
+[2017.03.30-10.35.20:299][127]LogBlueprintUserMessages: [VRPawn_507] 215.0
+[2017.03.30-10.35.20:317][128]LogBlueprintUserMessages: [VRPawn_507] 216.0
+[2017.03.30-10.35.20:333][129]LogBlueprintUserMessages: [VRPawn_507] 217.0
+[2017.03.30-10.35.20:350][130]LogBlueprintUserMessages: [VRPawn_507] 218.0
+[2017.03.30-10.35.20:365][131]LogBlueprintUserMessages: [VRPawn_507] 219.0
+[2017.03.30-10.35.20:381][132]LogBlueprintUserMessages: [VRPawn_507] 220.0
+[2017.03.30-10.35.20:397][133]LogBlueprintUserMessages: [VRPawn_507] 221.0
+[2017.03.30-10.35.20:412][134]LogBlueprintUserMessages: [VRPawn_507] 222.0
+[2017.03.30-10.35.20:426][135]LogBlueprintUserMessages: [VRPawn_507] 223.0
+[2017.03.30-10.35.20:441][136]LogBlueprintUserMessages: [VRPawn_507] 224.0
+[2017.03.30-10.35.20:456][137]LogBlueprintUserMessages: [VRPawn_507] 225.0
+[2017.03.30-10.35.20:471][138]LogBlueprintUserMessages: [VRPawn_507] 226.0
+[2017.03.30-10.35.20:486][139]LogBlueprintUserMessages: [VRPawn_507] 227.0
+[2017.03.30-10.35.20:501][140]LogBlueprintUserMessages: [VRPawn_507] 228.0
+[2017.03.30-10.35.20:516][141]LogBlueprintUserMessages: [VRPawn_507] 229.0
+[2017.03.30-10.35.20:531][142]LogBlueprintUserMessages: [VRPawn_507] 230.0
+[2017.03.30-10.35.20:546][143]LogBlueprintUserMessages: [VRPawn_507] 231.0
+[2017.03.30-10.35.20:561][144]LogBlueprintUserMessages: [VRPawn_507] 232.0
+[2017.03.30-10.35.20:576][145]LogBlueprintUserMessages: [VRPawn_507] 233.0
+[2017.03.30-10.35.20:591][146]LogBlueprintUserMessages: [VRPawn_507] 234.0
+[2017.03.30-10.35.20:606][147]LogBlueprintUserMessages: [VRPawn_507] 235.0
+[2017.03.30-10.35.20:621][148]LogBlueprintUserMessages: [VRPawn_507] 236.0
+[2017.03.30-10.35.20:636][149]LogBlueprintUserMessages: [VRPawn_507] 237.0
+[2017.03.30-10.35.20:651][150]LogBlueprintUserMessages: [VRPawn_507] 238.0
+[2017.03.30-10.35.20:666][151]LogBlueprintUserMessages: [VRPawn_507] 239.0
+[2017.03.30-10.35.20:680][152]LogBlueprintUserMessages: [VRPawn_507] 240.0
+[2017.03.30-10.35.20:695][153]LogBlueprintUserMessages: [VRPawn_507] 241.0
+[2017.03.30-10.35.20:711][154]LogBlueprintUserMessages: [VRPawn_507] 242.0
+[2017.03.30-10.35.20:726][155]LogBlueprintUserMessages: [VRPawn_507] 243.0
+[2017.03.30-10.35.20:742][156]LogBlueprintUserMessages: [VRPawn_507] 244.0
+[2017.03.30-10.35.20:757][157]LogBlueprintUserMessages: [VRPawn_507] 245.0
+[2017.03.30-10.35.20:772][158]LogBlueprintUserMessages: [VRPawn_507] 246.0
+[2017.03.30-10.35.20:787][159]LogBlueprintUserMessages: [VRPawn_507] 247.0
+[2017.03.30-10.35.20:803][160]LogBlueprintUserMessages: [VRPawn_507] 248.0
+[2017.03.30-10.35.20:817][161]LogBlueprintUserMessages: [VRPawn_507] 249.0
+[2017.03.30-10.35.20:833][162]LogBlueprintUserMessages: [VRPawn_507] 250.0
+[2017.03.30-10.35.20:848][163]LogBlueprintUserMessages: [VRPawn_507] 251.0
+[2017.03.30-10.35.20:863][164]LogBlueprintUserMessages: [VRPawn_507] 252.0
+[2017.03.30-10.35.20:878][165]LogBlueprintUserMessages: [VRPawn_507] 253.0
+[2017.03.30-10.35.20:893][166]LogBlueprintUserMessages: [VRPawn_507] 254.0
+[2017.03.30-10.35.20:909][167]LogBlueprintUserMessages: [VRPawn_507] 255.0
+[2017.03.30-10.35.20:923][168]LogBlueprintUserMessages: [VRPawn_507] 256.0
+[2017.03.30-10.35.20:938][169]LogBlueprintUserMessages: [VRPawn_507] 257.0
+[2017.03.30-10.35.20:954][170]LogBlueprintUserMessages: [VRPawn_507] 258.0
+[2017.03.30-10.35.20:969][171]LogBlueprintUserMessages: [VRPawn_507] 259.0
+[2017.03.30-10.35.20:984][172]LogBlueprintUserMessages: [VRPawn_507] 260.0
+[2017.03.30-10.35.20:999][173]LogBlueprintUserMessages: [VRPawn_507] 261.0
+[2017.03.30-10.35.21:014][174]LogBlueprintUserMessages: [VRPawn_507] 262.0
+[2017.03.30-10.35.21:029][175]LogBlueprintUserMessages: [VRPawn_507] 263.0
+[2017.03.30-10.35.21:044][176]LogBlueprintUserMessages: [VRPawn_507] 264.0
+[2017.03.30-10.35.21:059][177]LogBlueprintUserMessages: [VRPawn_507] 265.0
+[2017.03.30-10.35.21:074][178]LogBlueprintUserMessages: [VRPawn_507] 266.0
+[2017.03.30-10.35.21:088][179]LogBlueprintUserMessages: [VRPawn_507] 267.0
+[2017.03.30-10.35.21:104][180]LogBlueprintUserMessages: [VRPawn_507] 268.0
+[2017.03.30-10.35.21:118][181]LogBlueprintUserMessages: [VRPawn_507] 269.0
+[2017.03.30-10.35.21:133][182]LogBlueprintUserMessages: [VRPawn_507] 270.0
+[2017.03.30-10.35.21:148][183]LogBlueprintUserMessages: [VRPawn_507] 271.0
+[2017.03.30-10.35.21:164][184]LogBlueprintUserMessages: [VRPawn_507] 272.0
+[2017.03.30-10.35.21:178][185]LogBlueprintUserMessages: [VRPawn_507] 273.0
+[2017.03.30-10.35.21:194][186]LogBlueprintUserMessages: [VRPawn_507] 274.0
+[2017.03.30-10.35.21:208][187]LogBlueprintUserMessages: [VRPawn_507] 275.0
+[2017.03.30-10.35.21:224][188]LogBlueprintUserMessages: [VRPawn_507] 276.0
+[2017.03.30-10.35.21:238][189]LogBlueprintUserMessages: [VRPawn_507] 277.0
+[2017.03.30-10.35.21:253][190]LogBlueprintUserMessages: [VRPawn_507] 278.0
+[2017.03.30-10.35.21:268][191]LogBlueprintUserMessages: [VRPawn_507] 279.0
+[2017.03.30-10.35.21:283][192]LogBlueprintUserMessages: [VRPawn_507] 280.0
+[2017.03.30-10.35.21:298][193]LogBlueprintUserMessages: [VRPawn_507] 281.0
+[2017.03.30-10.35.21:313][194]LogBlueprintUserMessages: [VRPawn_507] 282.0
+[2017.03.30-10.35.21:327][195]LogBlueprintUserMessages: [VRPawn_507] 283.0
+[2017.03.30-10.35.21:343][196]LogBlueprintUserMessages: [VRPawn_507] 284.0
+[2017.03.30-10.35.21:357][197]LogBlueprintUserMessages: [VRPawn_507] 285.0
+[2017.03.30-10.35.21:376][198]LogBlueprintUserMessages: [VRPawn_507] 286.0
+[2017.03.30-10.35.21:393][199]LogBlueprintUserMessages: [VRPawn_507] 287.0
+[2017.03.30-10.35.21:409][200]LogBlueprintUserMessages: [VRPawn_507] 288.0
+[2017.03.30-10.35.21:426][201]LogBlueprintUserMessages: [VRPawn_507] 289.0
+[2017.03.30-10.35.21:443][202]LogBlueprintUserMessages: [VRPawn_507] 290.0
+[2017.03.30-10.35.21:459][203]LogBlueprintUserMessages: [VRPawn_507] 291.0
+[2017.03.30-10.35.21:476][204]LogBlueprintUserMessages: [VRPawn_507] 292.0
+[2017.03.30-10.35.21:492][205]LogBlueprintUserMessages: [VRPawn_507] 293.0
+[2017.03.30-10.35.21:509][206]LogBlueprintUserMessages: [VRPawn_507] 294.0
+[2017.03.30-10.35.21:526][207]LogBlueprintUserMessages: [VRPawn_507] 295.0
+[2017.03.30-10.35.21:543][208]LogBlueprintUserMessages: [VRPawn_507] 296.0
+[2017.03.30-10.35.21:559][209]LogBlueprintUserMessages: [VRPawn_507] 297.0
+[2017.03.30-10.35.21:576][210]LogBlueprintUserMessages: [VRPawn_507] 298.0
+[2017.03.30-10.35.21:593][211]LogBlueprintUserMessages: [VRPawn_507] 299.0
+[2017.03.30-10.35.21:609][212]LogBlueprintUserMessages: [VRPawn_507] 300.0
+[2017.03.30-10.35.21:626][213]LogBlueprintUserMessages: [VRPawn_507] 301.0
+[2017.03.30-10.35.21:643][214]LogBlueprintUserMessages: [VRPawn_507] 302.0
+[2017.03.30-10.35.21:659][215]LogBlueprintUserMessages: [VRPawn_507] 303.0
+[2017.03.30-10.35.21:676][216]LogBlueprintUserMessages: [VRPawn_507] 304.0
+[2017.03.30-10.35.21:693][217]LogBlueprintUserMessages: [VRPawn_507] 305.0
+[2017.03.30-10.35.21:709][218]LogBlueprintUserMessages: [VRPawn_507] 306.0
+[2017.03.30-10.35.21:726][219]LogBlueprintUserMessages: [VRPawn_507] 307.0
+[2017.03.30-10.35.21:743][220]LogBlueprintUserMessages: [VRPawn_507] 308.0
+[2017.03.30-10.35.21:759][221]LogBlueprintUserMessages: [VRPawn_507] 309.0
+[2017.03.30-10.35.21:776][222]LogBlueprintUserMessages: [VRPawn_507] 310.0
+[2017.03.30-10.35.21:793][223]LogBlueprintUserMessages: [VRPawn_507] 311.0
+[2017.03.30-10.35.21:809][224]LogBlueprintUserMessages: [VRPawn_507] 312.0
+[2017.03.30-10.35.21:826][225]LogBlueprintUserMessages: [VRPawn_507] 313.0
+[2017.03.30-10.35.21:842][226]LogBlueprintUserMessages: [VRPawn_507] 314.0
+[2017.03.30-10.35.21:859][227]LogBlueprintUserMessages: [VRPawn_507] 315.0
+[2017.03.30-10.35.21:876][228]LogBlueprintUserMessages: [VRPawn_507] 316.0
+[2017.03.30-10.35.21:892][229]LogBlueprintUserMessages: [VRPawn_507] 317.0
+[2017.03.30-10.35.21:909][230]LogBlueprintUserMessages: [VRPawn_507] 318.0
+[2017.03.30-10.35.21:926][231]LogBlueprintUserMessages: [VRPawn_507] 319.0
+[2017.03.30-10.35.21:943][232]LogBlueprintUserMessages: [VRPawn_507] 320.0
+[2017.03.30-10.35.21:959][233]LogBlueprintUserMessages: [VRPawn_507] 321.0
+[2017.03.30-10.35.21:976][234]LogBlueprintUserMessages: [VRPawn_507] 322.0
+[2017.03.30-10.35.21:993][235]LogBlueprintUserMessages: [VRPawn_507] 323.0
+[2017.03.30-10.35.22:009][236]LogBlueprintUserMessages: [VRPawn_507] 324.0
+[2017.03.30-10.35.22:026][237]LogBlueprintUserMessages: [VRPawn_507] 325.0
+[2017.03.30-10.35.22:042][238]LogBlueprintUserMessages: [VRPawn_507] 326.0
+[2017.03.30-10.35.22:059][239]LogBlueprintUserMessages: [VRPawn_507] 327.0
+[2017.03.30-10.35.22:076][240]LogBlueprintUserMessages: [VRPawn_507] 328.0
+[2017.03.30-10.35.22:093][241]LogBlueprintUserMessages: [VRPawn_507] 329.0
+[2017.03.30-10.35.22:109][242]LogBlueprintUserMessages: [VRPawn_507] 330.0
+[2017.03.30-10.35.22:126][243]LogBlueprintUserMessages: [VRPawn_507] 331.0
+[2017.03.30-10.35.22:143][244]LogBlueprintUserMessages: [VRPawn_507] 332.0
+[2017.03.30-10.35.22:159][245]LogBlueprintUserMessages: [VRPawn_507] 333.0
+[2017.03.30-10.35.22:176][246]LogBlueprintUserMessages: [VRPawn_507] 334.0
+[2017.03.30-10.35.22:193][247]LogBlueprintUserMessages: [VRPawn_507] 335.0
+[2017.03.30-10.35.22:209][248]LogBlueprintUserMessages: [VRPawn_507] 336.0
+[2017.03.30-10.35.22:226][249]LogBlueprintUserMessages: [VRPawn_507] 337.0
+[2017.03.30-10.35.22:242][250]LogBlueprintUserMessages: [VRPawn_507] 338.0
+[2017.03.30-10.35.22:259][251]LogBlueprintUserMessages: [VRPawn_507] 339.0
+[2017.03.30-10.35.22:276][252]LogBlueprintUserMessages: [VRPawn_507] 340.0
+[2017.03.30-10.35.22:293][253]LogBlueprintUserMessages: [VRPawn_507] 341.0
+[2017.03.30-10.35.22:309][254]LogBlueprintUserMessages: [VRPawn_507] 342.0
+[2017.03.30-10.35.22:326][255]LogBlueprintUserMessages: [VRPawn_507] 343.0
+[2017.03.30-10.35.22:343][256]LogBlueprintUserMessages: [VRPawn_507] 344.0
+[2017.03.30-10.35.22:359][257]LogBlueprintUserMessages: [VRPawn_507] 345.0
+[2017.03.30-10.35.22:376][258]LogBlueprintUserMessages: [VRPawn_507] 346.0
+[2017.03.30-10.35.22:393][259]LogBlueprintUserMessages: [VRPawn_507] 347.0
+[2017.03.30-10.35.22:409][260]LogBlueprintUserMessages: [VRPawn_507] 348.0
+[2017.03.30-10.35.22:426][261]LogBlueprintUserMessages: [VRPawn_507] 349.0
+[2017.03.30-10.35.22:442][262]LogBlueprintUserMessages: [VRPawn_507] 350.0
+[2017.03.30-10.35.22:460][263]LogBlueprintUserMessages: [VRPawn_507] 351.0
+[2017.03.30-10.35.22:476][264]LogBlueprintUserMessages: [VRPawn_507] 352.0
+[2017.03.30-10.35.22:493][265]LogBlueprintUserMessages: [VRPawn_507] 353.0
+[2017.03.30-10.35.22:509][266]LogBlueprintUserMessages: [VRPawn_507] 354.0
+[2017.03.30-10.35.22:526][267]LogBlueprintUserMessages: [VRPawn_507] 355.0
+[2017.03.30-10.35.22:543][268]LogBlueprintUserMessages: [VRPawn_507] 356.0
+[2017.03.30-10.35.22:559][269]LogBlueprintUserMessages: [VRPawn_507] 357.0
+[2017.03.30-10.35.22:576][270]LogBlueprintUserMessages: [VRPawn_507] 358.0
+[2017.03.30-10.35.22:593][271]LogBlueprintUserMessages: [VRPawn_507] 359.0
+[2017.03.30-10.35.22:609][272]LogBlueprintUserMessages: [VRPawn_507] 360.0
+[2017.03.30-10.35.22:626][273]LogBlueprintUserMessages: [VRPawn_507] 361.0
+[2017.03.30-10.35.22:643][274]LogBlueprintUserMessages: [VRPawn_507] 362.0
+[2017.03.30-10.35.22:660][275]LogBlueprintUserMessages: [VRPawn_507] 363.0
+[2017.03.30-10.35.22:676][276]LogBlueprintUserMessages: [VRPawn_507] 364.0
+[2017.03.30-10.35.22:693][277]LogBlueprintUserMessages: [VRPawn_507] 365.0
+[2017.03.30-10.35.22:710][278]LogBlueprintUserMessages: [VRPawn_507] 366.0
+[2017.03.30-10.35.22:726][279]LogBlueprintUserMessages: [VRPawn_507] 367.0
+[2017.03.30-10.35.22:743][280]LogBlueprintUserMessages: [VRPawn_507] 368.0
+[2017.03.30-10.35.22:759][281]LogBlueprintUserMessages: [VRPawn_507] 369.0
+[2017.03.30-10.35.22:776][282]LogBlueprintUserMessages: [VRPawn_507] 370.0
+[2017.03.30-10.35.22:793][283]LogBlueprintUserMessages: [VRPawn_507] 371.0
+[2017.03.30-10.35.22:809][284]LogBlueprintUserMessages: [VRPawn_507] 372.0
+[2017.03.30-10.35.22:826][285]LogBlueprintUserMessages: [VRPawn_507] 373.0
+[2017.03.30-10.35.22:843][286]LogBlueprintUserMessages: [VRPawn_507] 374.0
+[2017.03.30-10.35.22:859][287]LogBlueprintUserMessages: [VRPawn_507] 375.0
+[2017.03.30-10.35.22:876][288]LogBlueprintUserMessages: [VRPawn_507] 376.0
+[2017.03.30-10.35.22:893][289]LogBlueprintUserMessages: [VRPawn_507] 377.0
+[2017.03.30-10.35.22:909][290]LogBlueprintUserMessages: [VRPawn_507] 378.0
+[2017.03.30-10.35.22:926][291]LogBlueprintUserMessages: [VRPawn_507] 379.0
+[2017.03.30-10.35.22:943][292]LogBlueprintUserMessages: [VRPawn_507] 380.0
+[2017.03.30-10.35.22:959][293]LogBlueprintUserMessages: [VRPawn_507] 381.0
+[2017.03.30-10.35.22:976][294]LogBlueprintUserMessages: [VRPawn_507] 382.0
+[2017.03.30-10.35.22:993][295]LogBlueprintUserMessages: [VRPawn_507] 383.0
+[2017.03.30-10.35.23:009][296]LogBlueprintUserMessages: [VRPawn_507] 384.0
+[2017.03.30-10.35.23:026][297]LogBlueprintUserMessages: [VRPawn_507] 385.0
+[2017.03.30-10.35.23:043][298]LogBlueprintUserMessages: [VRPawn_507] 386.0
+[2017.03.30-10.35.23:059][299]LogBlueprintUserMessages: [VRPawn_507] 387.0
+[2017.03.30-10.35.23:076][300]LogBlueprintUserMessages: [VRPawn_507] 388.0
+[2017.03.30-10.35.23:093][301]LogBlueprintUserMessages: [VRPawn_507] 389.0
+[2017.03.30-10.35.23:109][302]LogBlueprintUserMessages: [VRPawn_507] 390.0
+[2017.03.30-10.35.23:126][303]LogBlueprintUserMessages: [VRPawn_507] 391.0
+[2017.03.30-10.35.23:143][304]LogBlueprintUserMessages: [VRPawn_507] 392.0
+[2017.03.30-10.35.23:159][305]LogBlueprintUserMessages: [VRPawn_507] 393.0
+[2017.03.30-10.35.23:176][306]LogBlueprintUserMessages: [VRPawn_507] 394.0
+[2017.03.30-10.35.23:193][307]LogBlueprintUserMessages: [VRPawn_507] 395.0
+[2017.03.30-10.35.23:209][308]LogBlueprintUserMessages: [VRPawn_507] 396.0
+[2017.03.30-10.35.23:226][309]LogBlueprintUserMessages: [VRPawn_507] 397.0
+[2017.03.30-10.35.23:243][310]LogBlueprintUserMessages: [VRPawn_507] 398.0
+[2017.03.30-10.35.23:260][311]LogBlueprintUserMessages: [VRPawn_507] 399.0
+[2017.03.30-10.35.23:276][312]LogBlueprintUserMessages: [VRPawn_507] 400.0
+[2017.03.30-10.35.23:293][313]LogBlueprintUserMessages: [VRPawn_507] 401.0
+[2017.03.30-10.35.23:309][314]LogBlueprintUserMessages: [VRPawn_507] 402.0
+[2017.03.30-10.35.23:326][315]LogBlueprintUserMessages: [VRPawn_507] 403.0
+[2017.03.30-10.35.23:343][316]LogBlueprintUserMessages: [VRPawn_507] 404.0
+[2017.03.30-10.35.23:359][317]LogBlueprintUserMessages: [VRPawn_507] 405.0
+[2017.03.30-10.35.23:376][318]LogBlueprintUserMessages: [VRPawn_507] 406.0
+[2017.03.30-10.35.23:392][319]LogBlueprintUserMessages: [VRPawn_507] 407.0
+[2017.03.30-10.35.23:410][320]LogBlueprintUserMessages: [VRPawn_507] 408.0
+[2017.03.30-10.35.23:426][321]LogBlueprintUserMessages: [VRPawn_507] 409.0
+[2017.03.30-10.35.23:443][322]LogBlueprintUserMessages: [VRPawn_507] 410.0
+[2017.03.30-10.35.23:459][323]LogBlueprintUserMessages: [VRPawn_507] 411.0
+[2017.03.30-10.35.23:476][324]LogBlueprintUserMessages: [VRPawn_507] 412.0
+[2017.03.30-10.35.23:493][325]LogBlueprintUserMessages: [VRPawn_507] 413.0
+[2017.03.30-10.35.23:510][326]LogBlueprintUserMessages: [VRPawn_507] 414.0
+[2017.03.30-10.35.23:526][327]LogBlueprintUserMessages: [VRPawn_507] 415.0
+[2017.03.30-10.35.23:543][328]LogBlueprintUserMessages: [VRPawn_507] 416.0
+[2017.03.30-10.35.23:559][329]LogBlueprintUserMessages: [VRPawn_507] 417.0
+[2017.03.30-10.35.23:576][330]LogBlueprintUserMessages: [VRPawn_507] 418.0
+[2017.03.30-10.35.23:593][331]LogBlueprintUserMessages: [VRPawn_507] 419.0
+[2017.03.30-10.35.23:610][332]LogBlueprintUserMessages: [VRPawn_507] 420.0
+[2017.03.30-10.35.23:626][333]LogBlueprintUserMessages: [VRPawn_507] 421.0
+[2017.03.30-10.35.23:643][334]LogBlueprintUserMessages: [VRPawn_507] 422.0
+[2017.03.30-10.35.23:659][335]LogBlueprintUserMessages: [VRPawn_507] 423.0
+[2017.03.30-10.35.23:676][336]LogBlueprintUserMessages: [VRPawn_507] 424.0
+[2017.03.30-10.35.23:693][337]LogBlueprintUserMessages: [VRPawn_507] 425.0
+[2017.03.30-10.35.23:709][338]LogBlueprintUserMessages: [VRPawn_507] 426.0
+[2017.03.30-10.35.23:726][339]LogBlueprintUserMessages: [VRPawn_507] 427.0
+[2017.03.30-10.35.23:743][340]LogBlueprintUserMessages: [VRPawn_507] 428.0
+[2017.03.30-10.35.23:759][341]LogBlueprintUserMessages: [VRPawn_507] 429.0
+[2017.03.30-10.35.23:776][342]LogBlueprintUserMessages: [VRPawn_507] 430.0
+[2017.03.30-10.35.23:793][343]LogBlueprintUserMessages: [VRPawn_507] 431.0
+[2017.03.30-10.35.23:810][344]LogBlueprintUserMessages: [VRPawn_507] 432.0
+[2017.03.30-10.35.23:826][345]LogBlueprintUserMessages: [VRPawn_507] 433.0
+[2017.03.30-10.35.23:843][346]LogBlueprintUserMessages: [VRPawn_507] 434.0
+[2017.03.30-10.35.23:859][347]LogBlueprintUserMessages: [VRPawn_507] 435.0
+[2017.03.30-10.35.23:876][348]LogBlueprintUserMessages: [VRPawn_507] 436.0
+[2017.03.30-10.35.23:893][349]LogBlueprintUserMessages: [VRPawn_507] 437.0
+[2017.03.30-10.35.23:910][350]LogBlueprintUserMessages: [VRPawn_507] 438.0
+[2017.03.30-10.35.23:926][351]LogBlueprintUserMessages: [VRPawn_507] 435.0
+[2017.03.30-10.35.23:943][352]LogBlueprintUserMessages: [VRPawn_507] 434.0
+[2017.03.30-10.35.23:959][353]LogBlueprintUserMessages: [VRPawn_507] 433.0
+[2017.03.30-10.35.23:976][354]LogBlueprintUserMessages: [VRPawn_507] 432.0
+[2017.03.30-10.35.23:993][355]LogBlueprintUserMessages: [VRPawn_507] 431.0
+[2017.03.30-10.35.24:009][356]LogBlueprintUserMessages: [VRPawn_507] 430.0
+[2017.03.30-10.35.24:026][357]LogBlueprintUserMessages: [VRPawn_507] 429.0
+[2017.03.30-10.35.24:043][358]LogBlueprintUserMessages: [VRPawn_507] 428.0
+[2017.03.30-10.35.24:059][359]LogBlueprintUserMessages: [VRPawn_507] 427.0
+[2017.03.30-10.35.24:076][360]LogBlueprintUserMessages: [VRPawn_507] 426.0
+[2017.03.30-10.35.24:093][361]LogBlueprintUserMessages: [VRPawn_507] 425.0
+[2017.03.30-10.35.24:109][362]LogBlueprintUserMessages: [VRPawn_507] 424.0
+[2017.03.30-10.35.24:126][363]LogBlueprintUserMessages: [VRPawn_507] 423.0
+[2017.03.30-10.35.24:143][364]LogBlueprintUserMessages: [VRPawn_507] 422.0
+[2017.03.30-10.35.24:159][365]LogBlueprintUserMessages: [VRPawn_507] 421.0
+[2017.03.30-10.35.24:176][366]LogBlueprintUserMessages: [VRPawn_507] 420.0
+[2017.03.30-10.35.24:193][367]LogBlueprintUserMessages: [VRPawn_507] 419.0
+[2017.03.30-10.35.24:209][368]LogBlueprintUserMessages: [VRPawn_507] 418.0
+[2017.03.30-10.35.24:226][369]LogBlueprintUserMessages: [VRPawn_507] 417.0
+[2017.03.30-10.35.24:243][370]LogBlueprintUserMessages: [VRPawn_507] 416.0
+[2017.03.30-10.35.24:259][371]LogBlueprintUserMessages: [VRPawn_507] 415.0
+[2017.03.30-10.35.24:276][372]LogBlueprintUserMessages: [VRPawn_507] 414.0
+[2017.03.30-10.35.24:293][373]LogBlueprintUserMessages: [VRPawn_507] 413.0
+[2017.03.30-10.35.24:309][374]LogBlueprintUserMessages: [VRPawn_507] 412.0
+[2017.03.30-10.35.24:326][375]LogBlueprintUserMessages: [VRPawn_507] 411.0
+[2017.03.30-10.35.24:343][376]LogBlueprintUserMessages: [VRPawn_507] 410.0
+[2017.03.30-10.35.24:360][377]LogBlueprintUserMessages: [VRPawn_507] 409.0
+[2017.03.30-10.35.24:376][378]LogBlueprintUserMessages: [VRPawn_507] 408.0
+[2017.03.30-10.35.24:393][379]LogBlueprintUserMessages: [VRPawn_507] 407.0
+[2017.03.30-10.35.24:409][380]LogBlueprintUserMessages: [VRPawn_507] 406.0
+[2017.03.30-10.35.24:426][381]LogBlueprintUserMessages: [VRPawn_507] 405.0
+[2017.03.30-10.35.24:443][382]LogBlueprintUserMessages: [VRPawn_507] 404.0
+[2017.03.30-10.35.24:459][383]LogBlueprintUserMessages: [VRPawn_507] 403.0
+[2017.03.30-10.35.24:476][384]LogBlueprintUserMessages: [VRPawn_507] 402.0
+[2017.03.30-10.35.24:493][385]LogBlueprintUserMessages: [VRPawn_507] 401.0
+[2017.03.30-10.35.24:509][386]LogBlueprintUserMessages: [VRPawn_507] 400.0
+[2017.03.30-10.35.24:526][387]LogBlueprintUserMessages: [VRPawn_507] 399.0
+[2017.03.30-10.35.24:543][388]LogBlueprintUserMessages: [VRPawn_507] 398.0
+[2017.03.30-10.35.24:560][389]LogBlueprintUserMessages: [VRPawn_507] 397.0
+[2017.03.30-10.35.24:576][390]LogBlueprintUserMessages: [VRPawn_507] 396.0
+[2017.03.30-10.35.24:593][391]LogBlueprintUserMessages: [VRPawn_507] 395.0
+[2017.03.30-10.35.24:609][392]LogBlueprintUserMessages: [VRPawn_507] 394.0
+[2017.03.30-10.35.24:626][393]LogBlueprintUserMessages: [VRPawn_507] 393.0
+[2017.03.30-10.35.24:643][394]LogBlueprintUserMessages: [VRPawn_507] 392.0
+[2017.03.30-10.35.24:659][395]LogBlueprintUserMessages: [VRPawn_507] 391.0
+[2017.03.30-10.35.24:676][396]LogBlueprintUserMessages: [VRPawn_507] 390.0
+[2017.03.30-10.35.24:693][397]LogBlueprintUserMessages: [VRPawn_507] 389.0
+[2017.03.30-10.35.24:710][398]LogBlueprintUserMessages: [VRPawn_507] 388.0
+[2017.03.30-10.35.24:726][399]LogBlueprintUserMessages: [VRPawn_507] 387.0
+[2017.03.30-10.35.24:743][400]LogBlueprintUserMessages: [VRPawn_507] 386.0
+[2017.03.30-10.35.24:759][401]LogBlueprintUserMessages: [VRPawn_507] 385.0
+[2017.03.30-10.35.24:776][402]LogBlueprintUserMessages: [VRPawn_507] 384.0
+[2017.03.30-10.35.24:793][403]LogBlueprintUserMessages: [VRPawn_507] 383.0
+[2017.03.30-10.35.24:809][404]LogBlueprintUserMessages: [VRPawn_507] 382.0
+[2017.03.30-10.35.24:826][405]LogBlueprintUserMessages: [VRPawn_507] 381.0
+[2017.03.30-10.35.24:843][406]LogBlueprintUserMessages: [VRPawn_507] 380.0
+[2017.03.30-10.35.24:859][407]LogBlueprintUserMessages: [VRPawn_507] 379.0
+[2017.03.30-10.35.24:876][408]LogBlueprintUserMessages: [VRPawn_507] 378.0
+[2017.03.30-10.35.24:893][409]LogBlueprintUserMessages: [VRPawn_507] 377.0
+[2017.03.30-10.35.24:910][410]LogBlueprintUserMessages: [VRPawn_507] 376.0
+[2017.03.30-10.35.24:926][411]LogBlueprintUserMessages: [VRPawn_507] 375.0
+[2017.03.30-10.35.24:943][412]LogBlueprintUserMessages: [VRPawn_507] 374.0
+[2017.03.30-10.35.24:960][413]LogBlueprintUserMessages: [VRPawn_507] 373.0
+[2017.03.30-10.35.24:976][414]LogBlueprintUserMessages: [VRPawn_507] 372.0
+[2017.03.30-10.35.24:993][415]LogBlueprintUserMessages: [VRPawn_507] 371.0
+[2017.03.30-10.35.25:009][416]LogBlueprintUserMessages: [VRPawn_507] 370.0
+[2017.03.30-10.35.25:026][417]LogBlueprintUserMessages: [VRPawn_507] 369.0
+[2017.03.30-10.35.25:043][418]LogBlueprintUserMessages: [VRPawn_507] 368.0
+[2017.03.30-10.35.25:059][419]LogBlueprintUserMessages: [VRPawn_507] 367.0
+[2017.03.30-10.35.25:076][420]LogBlueprintUserMessages: [VRPawn_507] 366.0
+[2017.03.30-10.35.25:093][421]LogBlueprintUserMessages: [VRPawn_507] 365.0
+[2017.03.30-10.35.25:110][422]LogBlueprintUserMessages: [VRPawn_507] 364.0
+[2017.03.30-10.35.25:126][423]LogBlueprintUserMessages: [VRPawn_507] 363.0
+[2017.03.30-10.35.25:143][424]LogBlueprintUserMessages: [VRPawn_507] 362.0
+[2017.03.30-10.35.25:160][425]LogBlueprintUserMessages: [VRPawn_507] 361.0
+[2017.03.30-10.35.25:176][426]LogBlueprintUserMessages: [VRPawn_507] 360.0
+[2017.03.30-10.35.25:193][427]LogBlueprintUserMessages: [VRPawn_507] 359.0
+[2017.03.30-10.35.25:209][428]LogBlueprintUserMessages: [VRPawn_507] 358.0
+[2017.03.30-10.35.25:226][429]LogBlueprintUserMessages: [VRPawn_507] 357.0
+[2017.03.30-10.35.25:243][430]LogBlueprintUserMessages: [VRPawn_507] 356.0
+[2017.03.30-10.35.25:259][431]LogBlueprintUserMessages: [VRPawn_507] 355.0
+[2017.03.30-10.35.25:276][432]LogBlueprintUserMessages: [VRPawn_507] 354.0
+[2017.03.30-10.35.25:293][433]LogBlueprintUserMessages: [VRPawn_507] 353.0
+[2017.03.30-10.35.25:310][434]LogBlueprintUserMessages: [VRPawn_507] 352.0
+[2017.03.30-10.35.25:326][435]LogBlueprintUserMessages: [VRPawn_507] 351.0
+[2017.03.30-10.35.25:343][436]LogBlueprintUserMessages: [VRPawn_507] 350.0
+[2017.03.30-10.35.25:360][437]LogBlueprintUserMessages: [VRPawn_507] 349.0
+[2017.03.30-10.35.25:376][438]LogBlueprintUserMessages: [VRPawn_507] 348.0
+[2017.03.30-10.35.25:393][439]LogBlueprintUserMessages: [VRPawn_507] 347.0
+[2017.03.30-10.35.25:409][440]LogBlueprintUserMessages: [VRPawn_507] 346.0
+[2017.03.30-10.35.25:426][441]LogBlueprintUserMessages: [VRPawn_507] 345.0
+[2017.03.30-10.35.25:443][442]LogBlueprintUserMessages: [VRPawn_507] 344.0
+[2017.03.30-10.35.25:460][443]LogBlueprintUserMessages: [VRPawn_507] 343.0
+[2017.03.30-10.35.25:476][444]LogBlueprintUserMessages: [VRPawn_507] 342.0
+[2017.03.30-10.35.25:493][445]LogBlueprintUserMessages: [VRPawn_507] 341.0
+[2017.03.30-10.35.25:510][446]LogBlueprintUserMessages: [VRPawn_507] 340.0
+[2017.03.30-10.35.25:526][447]LogBlueprintUserMessages: [VRPawn_507] 339.0
+[2017.03.30-10.35.25:543][448]LogBlueprintUserMessages: [VRPawn_507] 338.0
+[2017.03.30-10.35.25:560][449]LogBlueprintUserMessages: [VRPawn_507] 337.0
+[2017.03.30-10.35.25:576][450]LogBlueprintUserMessages: [VRPawn_507] 336.0
+[2017.03.30-10.35.25:593][451]LogBlueprintUserMessages: [VRPawn_507] 335.0
+[2017.03.30-10.35.25:609][452]LogBlueprintUserMessages: [VRPawn_507] 334.0
+[2017.03.30-10.35.25:626][453]LogBlueprintUserMessages: [VRPawn_507] 333.0
+[2017.03.30-10.35.25:643][454]LogBlueprintUserMessages: [VRPawn_507] 332.0
+[2017.03.30-10.35.25:660][455]LogBlueprintUserMessages: [VRPawn_507] 331.0
+[2017.03.30-10.35.25:676][456]LogBlueprintUserMessages: [VRPawn_507] 330.0
+[2017.03.30-10.35.25:693][457]LogBlueprintUserMessages: [VRPawn_507] 329.0
+[2017.03.30-10.35.25:710][458]LogBlueprintUserMessages: [VRPawn_507] 328.0
+[2017.03.30-10.35.25:726][459]LogBlueprintUserMessages: [VRPawn_507] 327.0
+[2017.03.30-10.35.25:743][460]LogBlueprintUserMessages: [VRPawn_507] 326.0
+[2017.03.30-10.35.25:759][461]LogBlueprintUserMessages: [VRPawn_507] 325.0
+[2017.03.30-10.35.25:776][462]LogBlueprintUserMessages: [VRPawn_507] 324.0
+[2017.03.30-10.35.25:793][463]LogBlueprintUserMessages: [VRPawn_507] 323.0
+[2017.03.30-10.35.25:809][464]LogBlueprintUserMessages: [VRPawn_507] 322.0
+[2017.03.30-10.35.25:826][465]LogBlueprintUserMessages: [VRPawn_507] 321.0
+[2017.03.30-10.35.25:843][466]LogBlueprintUserMessages: [VRPawn_507] 320.0
+[2017.03.30-10.35.25:860][467]LogBlueprintUserMessages: [VRPawn_507] 319.0
+[2017.03.30-10.35.25:877][468]LogBlueprintUserMessages: [VRPawn_507] 318.0
+[2017.03.30-10.35.25:894][469]LogBlueprintUserMessages: [VRPawn_507] 317.0
+[2017.03.30-10.35.25:910][470]LogBlueprintUserMessages: [VRPawn_507] 316.0
+[2017.03.30-10.35.25:927][471]LogBlueprintUserMessages: [VRPawn_507] 315.0
+[2017.03.30-10.35.25:944][472]LogBlueprintUserMessages: [VRPawn_507] 314.0
+[2017.03.30-10.35.25:960][473]LogBlueprintUserMessages: [VRPawn_507] 313.0
+[2017.03.30-10.35.25:977][474]LogBlueprintUserMessages: [VRPawn_507] 312.0
+[2017.03.30-10.35.25:993][475]LogBlueprintUserMessages: [VRPawn_507] 311.0
+[2017.03.30-10.35.26:010][476]LogBlueprintUserMessages: [VRPawn_507] 310.0
+[2017.03.30-10.35.26:027][477]LogBlueprintUserMessages: [VRPawn_507] 309.0
+[2017.03.30-10.35.26:044][478]LogBlueprintUserMessages: [VRPawn_507] 308.0
+[2017.03.30-10.35.26:061][479]LogBlueprintUserMessages: [VRPawn_507] 307.0
+[2017.03.30-10.35.26:077][480]LogBlueprintUserMessages: [VRPawn_507] 306.0
+[2017.03.30-10.35.26:094][481]LogBlueprintUserMessages: [VRPawn_507] 305.0
+[2017.03.30-10.35.26:110][482]LogBlueprintUserMessages: [VRPawn_507] 304.0
+[2017.03.30-10.35.26:127][483]LogBlueprintUserMessages: [VRPawn_507] 303.0
+[2017.03.30-10.35.26:144][484]LogBlueprintUserMessages: [VRPawn_507] 302.0
+[2017.03.30-10.35.26:160][485]LogBlueprintUserMessages: [VRPawn_507] 301.0
+[2017.03.30-10.35.26:177][486]LogBlueprintUserMessages: [VRPawn_507] 300.0
+[2017.03.30-10.35.26:194][487]LogBlueprintUserMessages: [VRPawn_507] 299.0
+[2017.03.30-10.35.26:211][488]LogBlueprintUserMessages: [VRPawn_507] 298.0
+[2017.03.30-10.35.26:227][489]LogBlueprintUserMessages: [VRPawn_507] 297.0
+[2017.03.30-10.35.26:244][490]LogBlueprintUserMessages: [VRPawn_507] 296.0
+[2017.03.30-10.35.26:260][491]LogBlueprintUserMessages: [VRPawn_507] 295.0
+[2017.03.30-10.35.26:277][492]LogBlueprintUserMessages: [VRPawn_507] 294.0
+[2017.03.30-10.35.26:294][493]LogBlueprintUserMessages: [VRPawn_507] 293.0
+[2017.03.30-10.35.26:310][494]LogBlueprintUserMessages: [VRPawn_507] 292.0
+[2017.03.30-10.35.26:327][495]LogBlueprintUserMessages: [VRPawn_507] 291.0
+[2017.03.30-10.35.26:344][496]LogBlueprintUserMessages: [VRPawn_507] 290.0
+[2017.03.30-10.35.26:360][497]LogBlueprintUserMessages: [VRPawn_507] 289.0
+[2017.03.30-10.35.26:377][498]LogBlueprintUserMessages: [VRPawn_507] 288.0
+[2017.03.30-10.35.26:394][499]LogBlueprintUserMessages: [VRPawn_507] 287.0
+[2017.03.30-10.35.26:411][500]LogBlueprintUserMessages: [VRPawn_507] 286.0
+[2017.03.30-10.35.26:427][501]LogBlueprintUserMessages: [VRPawn_507] 285.0
+[2017.03.30-10.35.26:444][502]LogBlueprintUserMessages: [VRPawn_507] 284.0
+[2017.03.30-10.35.26:460][503]LogBlueprintUserMessages: [VRPawn_507] 283.0
+[2017.03.30-10.35.26:477][504]LogBlueprintUserMessages: [VRPawn_507] 282.0
+[2017.03.30-10.35.26:494][505]LogBlueprintUserMessages: [VRPawn_507] 281.0
+[2017.03.30-10.35.26:510][506]LogBlueprintUserMessages: [VRPawn_507] 280.0
+[2017.03.30-10.35.26:527][507]LogBlueprintUserMessages: [VRPawn_507] 279.0
+[2017.03.30-10.35.26:544][508]LogBlueprintUserMessages: [VRPawn_507] 278.0
+[2017.03.30-10.35.26:561][509]LogBlueprintUserMessages: [VRPawn_507] 277.0
+[2017.03.30-10.35.26:577][510]LogBlueprintUserMessages: [VRPawn_507] 276.0
+[2017.03.30-10.35.26:594][511]LogBlueprintUserMessages: [VRPawn_507] 275.0
+[2017.03.30-10.35.26:611][512]LogBlueprintUserMessages: [VRPawn_507] 274.0
+[2017.03.30-10.35.26:627][513]LogBlueprintUserMessages: [VRPawn_507] 273.0
+[2017.03.30-10.35.26:644][514]LogBlueprintUserMessages: [VRPawn_507] 272.0
+[2017.03.30-10.35.26:660][515]LogBlueprintUserMessages: [VRPawn_507] 271.0
+[2017.03.30-10.35.26:677][516]LogBlueprintUserMessages: [VRPawn_507] 270.0
+[2017.03.30-10.35.26:694][517]LogBlueprintUserMessages: [VRPawn_507] 269.0
+[2017.03.30-10.35.26:710][518]LogBlueprintUserMessages: [VRPawn_507] 268.0
+[2017.03.30-10.35.26:727][519]LogBlueprintUserMessages: [VRPawn_507] 267.0
+[2017.03.30-10.35.26:744][520]LogBlueprintUserMessages: [VRPawn_507] 266.0
+[2017.03.30-10.35.26:761][521]LogBlueprintUserMessages: [VRPawn_507] 265.0
+[2017.03.30-10.35.26:777][522]LogBlueprintUserMessages: [VRPawn_507] 264.0
+[2017.03.30-10.35.26:794][523]LogBlueprintUserMessages: [VRPawn_507] 263.0
+[2017.03.30-10.35.26:811][524]LogBlueprintUserMessages: [VRPawn_507] 262.0
+[2017.03.30-10.35.26:827][525]LogBlueprintUserMessages: [VRPawn_507] 261.0
+[2017.03.30-10.35.26:844][526]LogBlueprintUserMessages: [VRPawn_507] 260.0
+[2017.03.30-10.35.26:860][527]LogBlueprintUserMessages: [VRPawn_507] 259.0
+[2017.03.30-10.35.26:877][528]LogBlueprintUserMessages: [VRPawn_507] 258.0
+[2017.03.30-10.35.26:894][529]LogBlueprintUserMessages: [VRPawn_507] 257.0
+[2017.03.30-10.35.26:910][530]LogBlueprintUserMessages: [VRPawn_507] 256.0
+[2017.03.30-10.35.26:927][531]LogBlueprintUserMessages: [VRPawn_507] 255.0
+[2017.03.30-10.35.26:944][532]LogBlueprintUserMessages: [VRPawn_507] 254.0
+[2017.03.30-10.35.26:960][533]LogBlueprintUserMessages: [VRPawn_507] 253.0
+[2017.03.30-10.35.26:977][534]LogBlueprintUserMessages: [VRPawn_507] 252.0
+[2017.03.30-10.35.26:994][535]LogBlueprintUserMessages: [VRPawn_507] 251.0
+[2017.03.30-10.35.27:011][536]LogBlueprintUserMessages: [VRPawn_507] 250.0
+[2017.03.30-10.35.27:027][537]LogBlueprintUserMessages: [VRPawn_507] 249.0
+[2017.03.30-10.35.27:044][538]LogBlueprintUserMessages: [VRPawn_507] 248.0
+[2017.03.30-10.35.27:060][539]LogBlueprintUserMessages: [VRPawn_507] 247.0
+[2017.03.30-10.35.27:077][540]LogBlueprintUserMessages: [VRPawn_507] 246.0
+[2017.03.30-10.35.27:094][541]LogBlueprintUserMessages: [VRPawn_507] 245.0
+[2017.03.30-10.35.27:110][542]LogBlueprintUserMessages: [VRPawn_507] 244.0
+[2017.03.30-10.35.27:127][543]LogBlueprintUserMessages: [VRPawn_507] 243.0
+[2017.03.30-10.35.27:144][544]LogBlueprintUserMessages: [VRPawn_507] 242.0
+[2017.03.30-10.35.27:161][545]LogBlueprintUserMessages: [VRPawn_507] 241.0
+[2017.03.30-10.35.27:177][546]LogBlueprintUserMessages: [VRPawn_507] 240.0
+[2017.03.30-10.35.27:194][547]LogBlueprintUserMessages: [VRPawn_507] 239.0
+[2017.03.30-10.35.27:210][548]LogBlueprintUserMessages: [VRPawn_507] 238.0
+[2017.03.30-10.35.27:227][549]LogBlueprintUserMessages: [VRPawn_507] 237.0
+[2017.03.30-10.35.27:244][550]LogBlueprintUserMessages: [VRPawn_507] 236.0
+[2017.03.30-10.35.27:260][551]LogBlueprintUserMessages: [VRPawn_507] 235.0
+[2017.03.30-10.35.27:277][552]LogBlueprintUserMessages: [VRPawn_507] 234.0
+[2017.03.30-10.35.27:294][553]LogBlueprintUserMessages: [VRPawn_507] 233.0
+[2017.03.30-10.35.27:310][554]LogBlueprintUserMessages: [VRPawn_507] 232.0
+[2017.03.30-10.35.27:327][555]LogBlueprintUserMessages: [VRPawn_507] 231.0
+[2017.03.30-10.35.27:344][556]LogBlueprintUserMessages: [VRPawn_507] 230.0
+[2017.03.30-10.35.27:361][557]LogBlueprintUserMessages: [VRPawn_507] 229.0
+[2017.03.30-10.35.27:377][558]LogBlueprintUserMessages: [VRPawn_507] 228.0
+[2017.03.30-10.35.27:394][559]LogBlueprintUserMessages: [VRPawn_507] 227.0
+[2017.03.30-10.35.27:410][560]LogBlueprintUserMessages: [VRPawn_507] 226.0
+[2017.03.30-10.35.27:427][561]LogBlueprintUserMessages: [VRPawn_507] 225.0
+[2017.03.30-10.35.27:444][562]LogBlueprintUserMessages: [VRPawn_507] 224.0
+[2017.03.30-10.35.27:460][563]LogBlueprintUserMessages: [VRPawn_507] 223.0
+[2017.03.30-10.35.27:477][564]LogBlueprintUserMessages: [VRPawn_507] 222.0
+[2017.03.30-10.35.27:494][565]LogBlueprintUserMessages: [VRPawn_507] 221.0
+[2017.03.30-10.35.27:511][566]LogBlueprintUserMessages: [VRPawn_507] 220.0
+[2017.03.30-10.35.27:528][567]LogBlueprintUserMessages: [VRPawn_507] 219.0
+[2017.03.30-10.35.27:544][568]LogBlueprintUserMessages: [VRPawn_507] 218.0
+[2017.03.30-10.35.27:561][569]LogBlueprintUserMessages: [VRPawn_507] 217.0
+[2017.03.30-10.35.27:577][570]LogBlueprintUserMessages: [VRPawn_507] 216.0
+[2017.03.30-10.35.27:594][571]LogBlueprintUserMessages: [VRPawn_507] 215.0
+[2017.03.30-10.35.27:611][572]LogBlueprintUserMessages: [VRPawn_507] 214.0
+[2017.03.30-10.35.27:627][573]LogBlueprintUserMessages: [VRPawn_507] 213.0
+[2017.03.30-10.35.27:644][574]LogBlueprintUserMessages: [VRPawn_507] 212.0
+[2017.03.30-10.35.27:661][575]LogBlueprintUserMessages: [VRPawn_507] 211.0
+[2017.03.30-10.35.27:677][576]LogBlueprintUserMessages: [VRPawn_507] 210.0
+[2017.03.30-10.35.27:694][577]LogBlueprintUserMessages: [VRPawn_507] 209.0
+[2017.03.30-10.35.27:711][578]LogBlueprintUserMessages: [VRPawn_507] 208.0
+[2017.03.30-10.35.27:727][579]LogBlueprintUserMessages: [VRPawn_507] 207.0
+[2017.03.30-10.35.27:744][580]LogBlueprintUserMessages: [VRPawn_507] 206.0
+[2017.03.30-10.35.27:761][581]LogBlueprintUserMessages: [VRPawn_507] 205.0
+[2017.03.30-10.35.27:777][582]LogBlueprintUserMessages: [VRPawn_507] 204.0
+[2017.03.30-10.35.27:794][583]LogBlueprintUserMessages: [VRPawn_507] 203.0
+[2017.03.30-10.35.27:811][584]LogBlueprintUserMessages: [VRPawn_507] 202.0
+[2017.03.30-10.35.27:827][585]LogBlueprintUserMessages: [VRPawn_507] 201.0
+[2017.03.30-10.35.27:844][586]LogBlueprintUserMessages: [VRPawn_507] 200.0
+[2017.03.30-10.35.27:861][587]LogBlueprintUserMessages: [VRPawn_507] 199.0
+[2017.03.30-10.35.27:877][588]LogBlueprintUserMessages: [VRPawn_507] 198.0
+[2017.03.30-10.35.27:894][589]LogBlueprintUserMessages: [VRPawn_507] 197.0
+[2017.03.30-10.35.27:911][590]LogBlueprintUserMessages: [VRPawn_507] 196.0
+[2017.03.30-10.35.27:928][591]LogBlueprintUserMessages: [VRPawn_507] 195.0
+[2017.03.30-10.35.27:944][592]LogBlueprintUserMessages: [VRPawn_507] 194.0
+[2017.03.30-10.35.27:961][593]LogBlueprintUserMessages: [VRPawn_507] 193.0
+[2017.03.30-10.35.27:977][594]LogBlueprintUserMessages: [VRPawn_507] 192.0
+[2017.03.30-10.35.27:994][595]LogBlueprintUserMessages: [VRPawn_507] 191.0
+[2017.03.30-10.35.28:011][596]LogBlueprintUserMessages: [VRPawn_507] 190.0
+[2017.03.30-10.35.28:027][597]LogBlueprintUserMessages: [VRPawn_507] 189.0
+[2017.03.30-10.35.32:272][791]LogBlueprintUserMessages: [VRPawn_507] 188.0
+[2017.03.30-10.35.32:288][792]LogBlueprintUserMessages: [VRPawn_507] 187.0
+[2017.03.30-10.35.32:305][793]LogBlueprintUserMessages: [VRPawn_507] 186.0
+[2017.03.30-10.35.32:321][794]LogBlueprintUserMessages: [VRPawn_507] 185.0
+[2017.03.30-10.35.32:338][795]LogBlueprintUserMessages: [VRPawn_507] 184.0
+[2017.03.30-10.35.32:355][796]LogBlueprintUserMessages: [VRPawn_507] 183.0
+[2017.03.30-10.35.32:372][797]LogBlueprintUserMessages: [VRPawn_507] 182.0
+[2017.03.30-10.35.32:388][798]LogBlueprintUserMessages: [VRPawn_507] 181.0
+[2017.03.30-10.35.32:405][799]LogBlueprintUserMessages: [VRPawn_507] 180.0
+[2017.03.30-10.35.32:421][800]LogBlueprintUserMessages: [VRPawn_507] 179.0
+[2017.03.30-10.35.32:438][801]LogBlueprintUserMessages: [VRPawn_507] 178.0
+[2017.03.30-10.35.32:455][802]LogBlueprintUserMessages: [VRPawn_507] 177.0
+[2017.03.30-10.35.32:472][803]LogBlueprintUserMessages: [VRPawn_507] 176.0
+[2017.03.30-10.35.32:488][804]LogBlueprintUserMessages: [VRPawn_507] 175.0
+[2017.03.30-10.35.32:505][805]LogBlueprintUserMessages: [VRPawn_507] 174.0
+[2017.03.30-10.35.32:522][806]LogBlueprintUserMessages: [VRPawn_507] 173.0
+[2017.03.30-10.35.32:538][807]LogBlueprintUserMessages: [VRPawn_507] 172.0
+[2017.03.30-10.35.32:555][808]LogBlueprintUserMessages: [VRPawn_507] 171.0
+[2017.03.30-10.35.32:571][809]LogBlueprintUserMessages: [VRPawn_507] 170.0
+[2017.03.30-10.35.32:588][810]LogBlueprintUserMessages: [VRPawn_507] 169.0
+[2017.03.30-10.35.32:605][811]LogBlueprintUserMessages: [VRPawn_507] 168.0
+[2017.03.30-10.35.32:621][812]LogBlueprintUserMessages: [VRPawn_507] 167.0
+[2017.03.30-10.35.32:638][813]LogBlueprintUserMessages: [VRPawn_507] 166.0
+[2017.03.30-10.35.32:655][814]LogBlueprintUserMessages: [VRPawn_507] 165.0
+[2017.03.30-10.35.32:671][815]LogBlueprintUserMessages: [VRPawn_507] 164.0
+[2017.03.30-10.35.32:688][816]LogBlueprintUserMessages: [VRPawn_507] 163.0
+[2017.03.30-10.35.32:705][817]LogBlueprintUserMessages: [VRPawn_507] 162.0
+[2017.03.30-10.35.32:788][822]LogBlueprintUserMessages: [VRPawn_507] 165.0
+[2017.03.30-10.35.32:805][823]LogBlueprintUserMessages: [VRPawn_507] 166.0
+[2017.03.30-10.35.32:822][824]LogBlueprintUserMessages: [VRPawn_507] 167.0
+[2017.03.30-10.35.32:838][825]LogBlueprintUserMessages: [VRPawn_507] 168.0
+[2017.03.30-10.35.32:855][826]LogBlueprintUserMessages: [VRPawn_507] 169.0
+[2017.03.30-10.35.32:872][827]LogBlueprintUserMessages: [VRPawn_507] 170.0
+[2017.03.30-10.35.32:888][828]LogBlueprintUserMessages: [VRPawn_507] 171.0
+[2017.03.30-10.35.32:905][829]LogBlueprintUserMessages: [VRPawn_507] 172.0
+[2017.03.30-10.35.32:921][830]LogBlueprintUserMessages: [VRPawn_507] 173.0
+[2017.03.30-10.35.32:938][831]LogBlueprintUserMessages: [VRPawn_507] 174.0
+[2017.03.30-10.35.32:955][832]LogBlueprintUserMessages: [VRPawn_507] 175.0
+[2017.03.30-10.35.32:971][833]LogBlueprintUserMessages: [VRPawn_507] 176.0
+[2017.03.30-10.35.32:988][834]LogBlueprintUserMessages: [VRPawn_507] 177.0
+[2017.03.30-10.35.33:005][835]LogBlueprintUserMessages: [VRPawn_507] 178.0
+[2017.03.30-10.35.33:022][836]LogBlueprintUserMessages: [VRPawn_507] 179.0
+[2017.03.30-10.35.33:038][837]LogBlueprintUserMessages: [VRPawn_507] 180.0
+[2017.03.30-10.35.33:055][838]LogBlueprintUserMessages: [VRPawn_507] 181.0
+[2017.03.30-10.35.33:072][839]LogBlueprintUserMessages: [VRPawn_507] 182.0
+[2017.03.30-10.35.33:088][840]LogBlueprintUserMessages: [VRPawn_507] 183.0
+[2017.03.30-10.35.33:105][841]LogBlueprintUserMessages: [VRPawn_507] 184.0
+[2017.03.30-10.35.33:138][843]LogBlueprintUserMessages: [VRPawn_507] 181.0
+[2017.03.30-10.35.33:155][844]LogBlueprintUserMessages: [VRPawn_507] 180.0
+[2017.03.30-10.35.33:171][845]LogBlueprintUserMessages: [VRPawn_507] 179.0
+[2017.03.30-10.35.33:189][846]LogBlueprintUserMessages: [VRPawn_507] 178.0
+[2017.03.30-10.35.33:205][847]LogBlueprintUserMessages: [VRPawn_507] 177.0
+[2017.03.30-10.35.33:222][848]LogBlueprintUserMessages: [VRPawn_507] 176.0
+[2017.03.30-10.35.33:238][849]LogBlueprintUserMessages: [VRPawn_507] 175.0
+[2017.03.30-10.35.33:255][850]LogBlueprintUserMessages: [VRPawn_507] 174.0
+[2017.03.30-10.35.33:272][851]LogBlueprintUserMessages: [VRPawn_507] 173.0
+[2017.03.30-10.35.33:288][852]LogBlueprintUserMessages: [VRPawn_507] 172.0
+[2017.03.30-10.35.33:305][853]LogBlueprintUserMessages: [VRPawn_507] 171.0
+[2017.03.30-10.35.33:322][854]LogBlueprintUserMessages: [VRPawn_507] 170.0
+[2017.03.30-10.35.33:338][855]LogBlueprintUserMessages: [VRPawn_507] 169.0
+[2017.03.30-10.35.33:355][856]LogBlueprintUserMessages: [VRPawn_507] 168.0
+[2017.03.30-10.35.33:372][857]LogBlueprintUserMessages: [VRPawn_507] 167.0
+[2017.03.30-10.35.33:389][858]LogBlueprintUserMessages: [VRPawn_507] 166.0
+[2017.03.30-10.35.33:555][868]LogBlueprintUserMessages: [VRPawn_507] 169.0
+[2017.03.30-10.35.33:572][869]LogBlueprintUserMessages: [VRPawn_507] 170.0
+[2017.03.30-10.35.33:588][870]LogBlueprintUserMessages: [VRPawn_507] 171.0
+[2017.03.30-10.35.33:605][871]LogBlueprintUserMessages: [VRPawn_507] 172.0
+[2017.03.30-10.35.33:622][872]LogBlueprintUserMessages: [VRPawn_507] 173.0
+[2017.03.30-10.35.33:638][873]LogBlueprintUserMessages: [VRPawn_507] 174.0
+[2017.03.30-10.35.33:655][874]LogBlueprintUserMessages: [VRPawn_507] 175.0
+[2017.03.30-10.35.33:672][875]LogBlueprintUserMessages: [VRPawn_507] 176.0
+[2017.03.30-10.35.33:688][876]LogBlueprintUserMessages: [VRPawn_507] 177.0
+[2017.03.30-10.35.33:705][877]LogBlueprintUserMessages: [VRPawn_507] 178.0
+[2017.03.30-10.35.33:721][878]LogBlueprintUserMessages: [VRPawn_507] 179.0
+[2017.03.30-10.35.33:738][879]LogBlueprintUserMessages: [VRPawn_507] 180.0
+[2017.03.30-10.35.33:755][880]LogBlueprintUserMessages: [VRPawn_507] 181.0
+[2017.03.30-10.35.33:772][881]LogBlueprintUserMessages: [VRPawn_507] 182.0
+[2017.03.30-10.35.33:788][882]LogBlueprintUserMessages: [VRPawn_507] 183.0
+[2017.03.30-10.35.33:805][883]LogBlueprintUserMessages: [VRPawn_507] 184.0
+[2017.03.30-10.35.33:872][887]LogBlueprintUserMessages: [VRPawn_507] 181.0
+[2017.03.30-10.35.33:888][888]LogBlueprintUserMessages: [VRPawn_507] 180.0
+[2017.03.30-10.35.33:905][889]LogBlueprintUserMessages: [VRPawn_507] 179.0
+[2017.03.30-10.35.33:921][890]LogBlueprintUserMessages: [VRPawn_507] 178.0
+[2017.03.30-10.35.33:939][891]LogBlueprintUserMessages: [VRPawn_507] 177.0
+[2017.03.30-10.35.33:955][892]LogBlueprintUserMessages: [VRPawn_507] 176.0
+[2017.03.30-10.35.33:972][893]LogBlueprintUserMessages: [VRPawn_507] 175.0
+[2017.03.30-10.35.33:988][894]LogBlueprintUserMessages: [VRPawn_507] 174.0
+[2017.03.30-10.35.34:005][895]LogBlueprintUserMessages: [VRPawn_507] 173.0
+[2017.03.30-10.35.34:022][896]LogBlueprintUserMessages: [VRPawn_507] 172.0
+[2017.03.30-10.35.34:038][897]LogBlueprintUserMessages: [VRPawn_507] 171.0
+[2017.03.30-10.35.34:055][898]LogBlueprintUserMessages: [VRPawn_507] 170.0
+[2017.03.30-10.35.34:071][899]LogBlueprintUserMessages: [VRPawn_507] 169.0
+[2017.03.30-10.35.34:088][900]LogBlueprintUserMessages: [VRPawn_507] 168.0
+[2017.03.30-10.35.34:105][901]LogBlueprintUserMessages: [VRPawn_507] 167.0
+[2017.03.30-10.35.34:121][902]LogBlueprintUserMessages: [VRPawn_507] 166.0
+[2017.03.30-10.35.34:138][903]LogBlueprintUserMessages: [VRPawn_507] 165.0
+[2017.03.30-10.35.34:155][904]LogBlueprintUserMessages: [VRPawn_507] 164.0
+[2017.03.30-10.35.34:172][905]LogBlueprintUserMessages: [VRPawn_507] 163.0
+[2017.03.30-10.35.34:188][906]LogBlueprintUserMessages: [VRPawn_507] 162.0
+[2017.03.30-10.35.34:205][907]LogBlueprintUserMessages: [VRPawn_507] 161.0
+[2017.03.30-10.35.34:222][908]LogBlueprintUserMessages: [VRPawn_507] 160.0
+[2017.03.30-10.35.34:238][909]LogBlueprintUserMessages: [VRPawn_507] 159.0
+[2017.03.30-10.35.34:255][910]LogBlueprintUserMessages: [VRPawn_507] 158.0
+[2017.03.30-10.35.34:271][911]LogBlueprintUserMessages: [VRPawn_507] 157.0
+[2017.03.30-10.35.34:288][912]LogBlueprintUserMessages: [VRPawn_507] 156.0
+[2017.03.30-10.35.34:305][913]LogBlueprintUserMessages: [VRPawn_507] 155.0
+[2017.03.30-10.35.34:322][914]LogBlueprintUserMessages: [VRPawn_507] 154.0
+[2017.03.30-10.35.34:338][915]LogBlueprintUserMessages: [VRPawn_507] 153.0
+[2017.03.30-10.35.34:355][916]LogBlueprintUserMessages: [VRPawn_507] 152.0
+[2017.03.30-10.35.34:372][917]LogBlueprintUserMessages: [VRPawn_507] 151.0
+[2017.03.30-10.35.34:388][918]LogBlueprintUserMessages: [VRPawn_507] 150.0
+[2017.03.30-10.35.34:405][919]LogBlueprintUserMessages: [VRPawn_507] 149.0
+[2017.03.30-10.35.34:422][920]LogBlueprintUserMessages: [VRPawn_507] 148.0
+[2017.03.30-10.35.34:438][921]LogBlueprintUserMessages: [VRPawn_507] 147.0
+[2017.03.30-10.35.34:455][922]LogBlueprintUserMessages: [VRPawn_507] 146.0
+[2017.03.30-10.35.34:522][926]LogBlueprintUserMessages: [VRPawn_507] 149.0
+[2017.03.30-10.35.34:538][927]LogBlueprintUserMessages: [VRPawn_507] 150.0
+[2017.03.30-10.35.34:555][928]LogBlueprintUserMessages: [VRPawn_507] 151.0
+[2017.03.30-10.35.34:572][929]LogBlueprintUserMessages: [VRPawn_507] 152.0
+[2017.03.30-10.35.34:588][930]LogBlueprintUserMessages: [VRPawn_507] 153.0
+[2017.03.30-10.35.34:605][931]LogBlueprintUserMessages: [VRPawn_507] 154.0
+[2017.03.30-10.35.34:621][932]LogBlueprintUserMessages: [VRPawn_507] 155.0
+[2017.03.30-10.35.34:638][933]LogBlueprintUserMessages: [VRPawn_507] 156.0
+[2017.03.30-10.35.34:655][934]LogBlueprintUserMessages: [VRPawn_507] 157.0
+[2017.03.30-10.35.34:671][935]LogBlueprintUserMessages: [VRPawn_507] 158.0
+[2017.03.30-10.35.34:688][936]LogBlueprintUserMessages: [VRPawn_507] 159.0
+[2017.03.30-10.35.34:705][937]LogBlueprintUserMessages: [VRPawn_507] 160.0
+[2017.03.30-10.35.34:721][938]LogBlueprintUserMessages: [VRPawn_507] 161.0
+[2017.03.30-10.35.34:738][939]LogBlueprintUserMessages: [VRPawn_507] 162.0
+[2017.03.30-10.35.34:755][940]LogBlueprintUserMessages: [VRPawn_507] 163.0
+[2017.03.30-10.35.34:772][941]LogBlueprintUserMessages: [VRPawn_507] 164.0
+[2017.03.30-10.35.34:788][942]LogBlueprintUserMessages: [VRPawn_507] 165.0
+[2017.03.30-10.35.35:306][973]LogBlueprintUserMessages: [VRPawn_507] 166.0
+[2017.03.30-10.35.35:322][974]LogBlueprintUserMessages: [VRPawn_507] 167.0
+[2017.03.30-10.35.35:338][975]LogBlueprintUserMessages: [VRPawn_507] 168.0
+[2017.03.30-10.35.35:355][976]LogBlueprintUserMessages: [VRPawn_507] 169.0
+[2017.03.30-10.35.35:372][977]LogBlueprintUserMessages: [VRPawn_507] 170.0
+[2017.03.30-10.35.35:389][978]LogBlueprintUserMessages: [VRPawn_507] 171.0
+[2017.03.30-10.35.35:405][979]LogBlueprintUserMessages: [VRPawn_507] 172.0
+[2017.03.30-10.35.35:422][980]LogBlueprintUserMessages: [VRPawn_507] 173.0
+[2017.03.30-10.35.35:438][981]LogBlueprintUserMessages: [VRPawn_507] 174.0
+[2017.03.30-10.35.35:455][982]LogBlueprintUserMessages: [VRPawn_507] 175.0
+[2017.03.30-10.35.35:472][983]LogBlueprintUserMessages: [VRPawn_507] 176.0
+[2017.03.30-10.35.35:489][984]LogBlueprintUserMessages: [VRPawn_507] 177.0
+[2017.03.30-10.35.35:506][985]LogBlueprintUserMessages: [VRPawn_507] 178.0
+[2017.03.30-10.35.35:572][989]LogBlueprintUserMessages: [VRPawn_507] 175.0
+[2017.03.30-10.35.35:589][990]LogBlueprintUserMessages: [VRPawn_507] 174.0
+[2017.03.30-10.35.35:605][991]LogBlueprintUserMessages: [VRPawn_507] 173.0
+[2017.03.30-10.35.35:622][992]LogBlueprintUserMessages: [VRPawn_507] 172.0
+[2017.03.30-10.35.35:638][993]LogBlueprintUserMessages: [VRPawn_507] 171.0
+[2017.03.30-10.35.35:655][994]LogBlueprintUserMessages: [VRPawn_507] 170.0
+[2017.03.30-10.35.35:672][995]LogBlueprintUserMessages: [VRPawn_507] 169.0
+[2017.03.30-10.35.35:689][996]LogBlueprintUserMessages: [VRPawn_507] 168.0
+[2017.03.30-10.35.35:706][997]LogBlueprintUserMessages: [VRPawn_507] 167.0
+[2017.03.30-10.35.35:722][998]LogBlueprintUserMessages: [VRPawn_507] 166.0
+[2017.03.30-10.35.35:739][999]LogBlueprintUserMessages: [VRPawn_507] 165.0
+[2017.03.30-10.35.35:755][  0]LogBlueprintUserMessages: [VRPawn_507] 164.0
+[2017.03.30-10.35.35:772][  1]LogBlueprintUserMessages: [VRPawn_507] 163.0
+[2017.03.30-10.35.35:789][  2]LogBlueprintUserMessages: [VRPawn_507] 162.0
+[2017.03.30-10.37.01:671][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.37.01:727][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.30-10.43.11:961][272]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.30-10.43.21:355][812]LogSavePackage: Save=184.51ms
+[2017.03.30-10.43.21:355][812]LogSavePackage: Moving '../../../../../../Downloads/VR4NewScene/VR4NewScene/VR4/Saved/MotionControllerMap_Auto1E8F546824FAD4C730DBEBB91A7A2989D.tmp' to '../../../../../../Downloads/VR4NewScene/VR4NewScene/VR4/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap'
+[2017.03.30-10.43.21:358][812]LogSavePackage:Display: Finished SavePackage ../../../../../../Downloads/VR4NewScene/VR4NewScene/VR4/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2017.03.30-10.43.21:360][812]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.368
+[2017.03.30-10.43.21:360][812]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.368
+[2017.03.30-10.43.21:362][812]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData] ([1] browsable assets)...
+[2017.03.30-10.43.21:362][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData]
+[2017.03.30-10.43.21:419][812]LogSavePackage: Save=13.02ms
+[2017.03.30-10.43.21:419][812]LogSavePackage: Moving '../../../../../../Downloads/VR4NewScene/VR4NewScene/VR4/Saved/MotionControllerMap_BuiltData_Auto195C6458C4E6C2E6AF1A4CEB061B19806.tmp' to '../../../../../../Downloads/VR4NewScene/VR4NewScene/VR4/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto1.uasset'
+[2017.03.30-10.43.21:421][812]LogSavePackage:Display: Finished SavePackage ../../../../../../Downloads/VR4NewScene/VR4NewScene/VR4/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto1.uasset
+[2017.03.30-10.43.21:421][812]LogFileHelpers: Auto-saving content packages took 0.060
